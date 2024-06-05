@@ -1,6 +1,6 @@
 from selenium.webdriver import ActionChains
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
@@ -11,13 +11,13 @@ class BasePage:
         self.action = ActionChains(self.driver)
 
     def find(self, by, locator):
-        return self.wait.until(ec.visibility_of_element_located((by,locator)))
+        return self.wait.until(EC.visibility_of_element_located((by, locator)))
     
-    def click(self,locator):
-        self.action.key_down(Keys.CONTROL).click(locator).key_up(Keys.CONTROL).perform()
+    def click(self, by, locator):
+        element = self.find(by, locator)
+        element.click()
 
-    def send_key(self, locator, text):
-        self.driver.execute_script("arguments[0].value = arguments[1];", locator, text)
-
-
-        
+    def send_key(self, by, locator, text):
+        element = self.find(by, locator)
+        element.clear()
+        element.send_keys(text)
