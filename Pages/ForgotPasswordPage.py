@@ -6,20 +6,20 @@ class ForgotPasswordPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
 
-    forgotPassword_locator = (By.XPATH, "//div[@class='orangehrm-login-forgot']//p")
-    username_locator = (By.XPATH, "//input[@name='username']")
-    resetPassword_locator = (By.XPATH, "//button[text()=' Reset Password ']")
-    cancelPassword_locator= (By.XPATH, "//button[text()=' Cancel ']")
+    forgotPassword_locator = "//div[@class='orangehrm-login-forgot']//p"
+    username_locator = "//input[@name='username']"
+    resetPassword_locator = "//button[text()=' Reset Password ']"
+    cancelPassword_locator= "//button[text()=' Cancel ']"
 
     def forgotPassword(self, username):
-        self.click(*self.forgotPassword_locator)
-        self.send_key(*self.username_locator, username)
-        self.click(*self.resetPassword_locator)
+        self.find(By.XPATH,self.forgotPassword_locator).click()
+        self.send_key(By.XPATH, self.username_locator, username)
+        self.click(By.XPATH, self.resetPassword_locator)
 
     def forgotPassword_cancel(self, username):
-        self.click(*self.forgotPassword_locator)
-        self.send_key(*self.username_locator, username)
-        self.click(*self.cancelPassword_locator)
+        self.find(By.XPATH,self.forgotPassword_locator).click()
+        self.send_key(By.XPATH, self.username_locator, username)
+        self.click(By.XPATH, self.cancelPassword_locator)
    
 
 
