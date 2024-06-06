@@ -4,7 +4,7 @@ from Utility import ExcelReader
 from Tests import Test_ValidLogin
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("Employee_Name,Employee_Id", ExcelReader.get_data("E:\Pytest_clone\Pytest_clone\Pytest_OrangeHRM\ExcelFiles\Employee_Info.xlsx", "Employee"))
+@pytest.mark.parametrize("Employee_Name,Employee_Id", ExcelReader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\ExcelFiles\Employee_Info.xlsx", "Employee"))
 class TestEmployeeSearch:
     def test_emplist(self, Employee_Name,Employee_Id):
         Test_ValidLogin.TestLogin.test_valid_login(self)

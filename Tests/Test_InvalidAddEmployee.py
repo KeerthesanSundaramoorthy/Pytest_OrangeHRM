@@ -5,7 +5,7 @@ from Pages import BasePage
 from Tests import Test_ValidLogin
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("fname,mname,lname,emp_id", ExcelReader.get_data("E:\Pytest_clone\Pytest_clone\Pytest_OrangeHRM\ExcelFiles\Invalid_Add_Employee.xlsx", "InvalidAddEmployee"))
+@pytest.mark.parametrize("fname,mname,lname,emp_id", ExcelReader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\ExcelFiles\Invalid_Add_Employee.xlsx", "InvalidAddEmployee"))
 
 
 class TestValidAddEmployee:

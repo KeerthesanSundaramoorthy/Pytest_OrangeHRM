@@ -1,4 +1,4 @@
-'''import openpyxl
+import openpyxl
 
 def get_data(path,sheet_name):
     final_list=[]
@@ -12,7 +12,7 @@ def get_data(path,sheet_name):
         for c in range(1,total_columns+1):
             row_list.append(sheet.cell(r,c).value)
         final_list.append(row_list)
-    return final_list'''
+    return final_list
 
 '''import openpyxl
 
@@ -24,7 +24,7 @@ def get_data(file_path, sheet_name):
         data.append(tuple(cell if cell is not None else '' for cell in row))  # Replace None with empty string
     return data'''
 
-import openpyxl
+'''import openpyxl
 
 def get_data(path, sheet_name):
     final_list = []
@@ -39,5 +39,5 @@ def get_data(path, sheet_name):
             cell_value = sheet.cell(r, c).value
             row_list.append(cell_value if cell_value is not None else '')  
         final_list.append(tuple(row_list))  
-    return final_list
+    return final_list'''
 
