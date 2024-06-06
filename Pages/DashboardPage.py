@@ -38,13 +38,13 @@ class Dashboard_Page(BasePage):
         super().__init__(driver)
 
     # QuickLaunch Icon locators
-    assign_leave_xpath = "(//button[@class='oxd-icon-button orangehrm-quick-launch-icon']//*[local-name()='svg'])[1]"
+    assign_leave_xpath = (By.XPATH,"(//button[@class='oxd-icon-button orangehrm-quick-launch-icon']//*[local-name()='svg'])[1]")
 
     # Assert locators
     assign_leave_assert = (By.XPATH, "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']")
 
     def assign_leave(self):
-        self.click(By.XPATH, self.assign_leave_xpath)
+        self.find_click(*self.assign_leave_xpath)
         assign_element = self.find(*self.assign_leave_assert)
         assign_text = assign_element.text
         assert "Leave" == assign_text
