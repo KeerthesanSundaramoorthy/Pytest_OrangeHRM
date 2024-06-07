@@ -7,6 +7,7 @@ from Utility import utility_file
 
 @pytest.mark.usefixtures("setup_and_teardown")
 class TestForgotPassword:
+    @pytest.mark.smoke
     def test_forgot_password(self):
         forgotpassword=ForgotPasswordPage(self.driver)
         username = utility_file.get_config("valid login details", "username")
@@ -19,6 +20,7 @@ class TestForgotPassword:
         )
         assert success_message.is_displayed(), "Forgot password process was not successful"
 
+    @pytest.mark.regression
     def test_forgot_password_cancel(self):
         forgotpassword = ForgotPasswordPage(self.driver)
         username = utility_file.get_config("valid login details", "username")

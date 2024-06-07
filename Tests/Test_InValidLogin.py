@@ -4,8 +4,9 @@ from Pages.LoginPage import LoginPage
 from Utility import ExcelReader
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("username,password",ExcelReader.get_data("C:\\Users\\SM\\Desktop\\Clone_pytest\\Pytest_OrangeHRM\\ExcelFiles\\Invalid_LoginData.xlsx","loginInvalid"))
+@pytest.mark.parametrize("username,password",ExcelReader.get_data("C:\\Users\\SM\\Desktop\\Clone_pytest\\Pytest_OrangeHRM\\Excel_Files\\Invalid_LoginData.xlsx","loginInvalid"))
 class TestLogin:
+    @pytest.mark.smoke
     def test_invalid_login(self, username, password):
         login = LoginPage(self.driver)
         login.login(username, password)
