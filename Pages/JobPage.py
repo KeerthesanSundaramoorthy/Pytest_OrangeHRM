@@ -1,4 +1,4 @@
-import time
+"""Author: Keerthesan (Expleo)"""
 from selenium.webdriver.common.by import By
 from Pages.BasePage import BasePage
 from selenium.webdriver.support import expected_conditions as ec
@@ -22,48 +22,82 @@ class JobPage(BasePage):
     success_saved_xpath = "(//div[@class='oxd-toast-start']//p)[2]"
 
     def job_functions(self):
-        admin = self.find(By.CSS_SELECTOR,self.admin_css)
-        self.click(admin)
+
+        """Navigates to the job functions page."""
+        
+        self.click(By.CSS_SELECTOR,self.admin_css)
         total = self.driver.window_handles
         for i in total:
             self.driver.switch_to.window(i)
             if self.driver.current_url.__eq__("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"):
-                job = self.find(By.XPATH,self.job_xpath)
-                self.click(job)
-                job_titles = self.find(By.XPATH,self.job_titles_xpath)
-                self.click(job_titles)
+                self.click(By.XPATH,self.job_xpath)
+                self.click(By.XPATH,self.job_titles_xpath)
     
 
     def job_title(self,title):
-        job_title_field = self.find(By.XPATH,self.job_text_xpath)
-        self.send_key(job_title_field,title)
+
+        """ Enters the new job title."""
+        
+        self.send_key(By.XPATH,self.job_text_xpath,title)
 
     def job_description(self,desc):
-        job_desc_field = self.find(By.XPATH,self.job_desc_xpath)
-        self.send_key(job_desc_field,desc)
+
+        """ Enter the job description."""
+        
+        self.send_key(By.XPATH,self.job_desc_xpath,desc)
 
     def job_note(self,note):
-        job_note_field = self.find(By.XPATH,self.jb_note_xpath)
-        self.send_key(job_note_field,note)
+
+        """Enter the job note."""
+
+        self.send_key(By.XPATH,self.jb_note_xpath,note)
     
     def click_cancel(self):
-        cancel_but = self.find(By.XPATH,self.cancel_button_xpath)
-        self.click(cancel_but)
+
+        """Clicks the cancel button."""
+
+        self.click(By.XPATH,self.cancel_button_xpath)
 
     def job_delete(self):
-        delete = self.find(By.XPATH,self.trash_xpath)
-        self.click(delete)
-        yes = self.find(By.XPATH,self.yes_del_xpath)
-        self.click(yes)
+
+        """Deletes the job."""
+
+        self.click(By.XPATH,self.trash_xpath)
+        self.click(By.XPATH,self.yes_del_xpath)
 
     def assert_job(self):
-        expected = "Successfully Saved"
-        actual = self.find(By.XPATH,self.success_saved_xpath).text
-        return actual.__eq__(expected)
+
+        """ Assert job is successfully saved."""
+        
+        try:
+            expected = "Successfully Saved"
+            actual = self.find(By.XPATH,self.success_saved_xpath).text
+            assert actual.__eq__(expected), f"Assertion failed: expected text is '{expected}', but the actual text is '{actual}'"
+            return True
+        
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
     
     def assert_previous(self):
-        return self.find(By.XPATH,self.trash_xpath).is_displayed()
+
+        """Assert if the previous page is displayed."""
+        
+        try:
+            return self.find(By.XPATH,self.trash_xpath).is_displayed()
+        
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
     
     def assert_delete(self):
-        return self.find(By.XPATH,self.success_deleted_xpath).is_displayed()
+        
+        """Assert if job is successfully deleted."""
+        
+        try:
+            return self.find(By.XPATH,self.success_deleted_xpath).is_displayed()
+        
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
 

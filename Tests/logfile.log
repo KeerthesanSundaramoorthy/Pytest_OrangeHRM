@@ -1,0 +1,145 @@
+2024-06-07 22:32:08,481 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:32:11,041 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-07 22:32:25,003 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:32:27,135 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-07 22:32:27,724 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-07 22:32:45,310 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:32:47,545 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-07 22:32:48,031 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-07 22:35:42,060 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:35:44,643 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-07 22:35:45,202 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-07 22:36:02,877 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:36:05,295 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-07 22:36:05,798 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-07 22:36:22,026 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:36:24,193 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-07 22:36:24,705 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-07 23:51:01,688 : INFO : TestActions : Successfully logged into the application
+2024-06-07 23:51:04,188 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-07 23:51:04,815 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-07 23:51:31,945 : INFO : TestActions : Successfully logged into the application
+2024-06-07 23:51:34,486 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-07 23:51:35,019 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-07 23:51:59,877 : INFO : TestActions : Successfully logged into the application
+2024-06-07 23:52:03,062 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-07 23:52:05,128 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-07 23:52:22,473 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-07 23:52:24,548 : INFO : TestConfigurations : Configurations is clicked from the drop down successfully
+2024-06-07 23:52:35,682 : INFO : TestConfigurations : Test Email is typed in the appropriate text box
+2024-06-07 23:52:46,745 : INFO : TestConfigurations : Male gender checkbox is clicked
+2024-06-07 23:52:57,845 : INFO : TestConfigurations : Sent Email is enabled
+2024-06-07 23:53:08,938 : INFO : TestConfigurations : Sent Email is typed in the appropriate text box
+2024-06-07 23:53:12,924 : INFO : TestConfigurations : Save button is clicked
+2024-06-07 23:53:30,502 : INFO : TestEmployment : Successfully logged into the application
+2024-06-07 23:53:35,018 : INFO : TestEmployment : Employment Status is clicked from the drop down successfully
+2024-06-07 23:53:37,073 : INFO : TestEmployment : Add button is clicked
+2024-06-07 23:53:37,639 : INFO : TestEmployment : Employment name is typed in the appropriate text box
+2024-06-07 23:53:37,955 : INFO : TestEmployment : Save button is clicked
+2024-06-07 23:53:40,055 : INFO : TestEmployment : Successfully Saved message is seen and verified
+2024-06-07 23:53:56,755 : INFO : TestGeneral : Successfully logged into the application
+2024-06-07 23:54:04,555 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-07 23:54:04,621 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-07 23:54:23,737 : INFO : TestGeneral : Successfully logged into the application
+2024-06-07 23:54:30,648 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-07 23:54:32,778 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-07 23:54:33,143 : INFO : TestGeneral : Save button is clicked
+2024-06-07 23:54:33,998 : INFO : TestGeneral : Successfully Updated message is seen and verified
+2024-06-07 23:54:50,084 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:54:56,609 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:54:58,215 : INFO : TestJob : Add button is clicked
+2024-06-07 23:54:58,741 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-07 23:54:58,764 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-07 23:54:58,785 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-07 23:54:59,112 : INFO : TestJob : Save button is clicked
+2024-06-07 23:55:01,022 : INFO : TestJob : Successfully Saved message is seen and verified
+2024-06-07 23:55:24,615 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:55:30,936 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:55:32,193 : INFO : TestJob : Add button is clicked
+2024-06-07 23:55:32,694 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-07 23:55:32,724 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-07 23:55:32,750 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-07 23:55:33,610 : INFO : TestJob : Cancel button is clicked
+2024-06-07 23:55:34,751 : INFO : TestJob : Previous Page is loaded and verified
+2024-06-07 23:55:53,511 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:56:01,392 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:56:03,006 : INFO : TestJob : Add button is clicked
+2024-06-07 23:56:03,916 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-07 23:56:04,294 : INFO : TestJob : Save button is clicked
+2024-06-07 23:56:06,037 : INFO : TestJob : Successfully Saved message is seen and verified
+2024-06-07 23:56:24,945 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:56:34,602 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:56:36,304 : INFO : TestJob : Delete button is clicked
+2024-06-07 23:56:36,856 : INFO : TestJob : Successfully Deleted message is seen and verified
+2024-06-07 23:56:51,731 : INFO : TestLocation : Successfully logged into the application
+2024-06-07 23:56:56,250 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-07 23:56:57,367 : INFO : TestLocation : Location is filled and name,city is is typed in the appropriate text box
+2024-06-07 23:56:57,663 : INFO : TestLocation : Search button is clicked
+2024-06-07 23:56:58,187 : INFO : TestLocation : Search result is seen and verified successfully
+2024-06-07 23:57:21,581 : INFO : TestMembership : Successfully logged into the application
+2024-06-07 23:57:26,336 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-07 23:57:27,278 : INFO : TestMembership : Add button is clicked
+2024-06-07 23:57:27,772 : INFO : TestMembership : Acca is selected as the member role
+2024-06-07 23:57:28,244 : INFO : TestMembership : Company is selected as the subscription method
+2024-06-07 23:57:28,312 : INFO : TestMembership : Subscription amount is typed in the appropriate text box
+2024-06-07 23:57:28,789 : INFO : TestMembership : Appropriate currency is selected
+2024-06-07 23:57:28,839 : INFO : TestMembership : Commence date is typed in the appropriate text box
+2024-06-07 23:57:28,890 : INFO : TestMembership : Renewal date is typed in the appropriate text box
+2024-06-07 23:57:29,235 : INFO : TestMembership : Save button is clicked
+2024-06-07 23:57:30,026 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-07 23:58:03,981 : INFO : TestMembership : Successfully logged into the application
+2024-06-07 23:58:09,179 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-07 23:58:10,068 : INFO : TestMembership : Add button is clicked
+2024-06-07 23:58:10,552 : INFO : TestMembership : Acca is selected as the member role
+2024-06-07 23:58:10,874 : INFO : TestMembership : Save button is clicked
+2024-06-07 23:58:11,440 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-07 23:58:28,957 : INFO : TestNation : Successfully logged into the application
+2024-06-07 23:58:34,581 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-07 23:58:35,976 : INFO : TestNation : Add button is clicked
+2024-06-07 23:58:36,548 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-07 23:58:36,876 : INFO : TestNation : Save button is clicked
+2024-06-07 23:58:38,950 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-07 23:58:58,513 : INFO : TestNation : Successfully logged into the application
+2024-06-07 23:59:05,724 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-07 23:59:07,262 : INFO : TestNation : Add button is clicked
+2024-06-07 23:59:07,707 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-07 23:59:08,028 : INFO : TestNation : Save button is clicked
+2024-06-07 23:59:09,268 : INFO : TestNation : Already exists message is seen and verified
+2024-06-07 23:59:30,085 : INFO : TestPay : Successfully logged into the application
+2024-06-07 23:59:35,432 : INFO : TestPay : Pay Grade is clicked from the drop down successfully
+2024-06-07 23:59:37,259 : INFO : TestPay : Add button is clicked
+2024-06-07 23:59:38,146 : INFO : TestPay : Pay Grade is typed in the appropriate text box
+2024-06-07 23:59:38,482 : INFO : TestPay : Save button is clicked
+2024-06-07 23:59:38,562 : INFO : TestPay : Successfully Saved message is seen and verified
+2024-06-07 23:59:58,825 : INFO : TestQualification : Successfully logged into the application
+2024-06-08 00:00:04,789 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-08 00:00:08,184 : INFO : TestQualification : Add button is clicked
+2024-06-08 00:00:08,232 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-08 00:00:08,259 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-08 00:00:08,283 : INFO : TestQualification : From date is typed in the appropriate text box
+2024-06-08 00:00:08,319 : INFO : TestQualification : To Date is typed in the appropriate text box
+2024-06-08 00:00:08,351 : INFO : TestQualification : Comment is typed in the appropriate text box
+2024-06-08 00:00:08,656 : INFO : TestQualification : Save button is clicked
+2024-06-08 00:00:11,732 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-08 00:00:29,550 : INFO : TestQualification : Successfully logged into the application
+2024-06-08 00:00:34,375 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-08 00:00:35,190 : INFO : TestQualification : Add button is clicked
+2024-06-08 00:00:35,230 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-08 00:00:35,260 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-08 00:00:35,590 : INFO : TestQualification : Save button is clicked
+2024-06-08 00:00:36,426 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-08 00:00:54,136 : INFO : TestUser : Successfully logged into the application
+2024-06-08 00:00:56,235 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-08 00:01:07,306 : INFO : TestUser : Username is typed in the username text box
+2024-06-08 00:02:05,549 : INFO : TestUser : Successfully logged into the application
+2024-06-08 00:02:10,498 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-08 00:02:11,260 : INFO : TestUser : Username is typed in the username text box
+2024-06-08 00:02:11,725 : INFO : TestUser : Enable status is selected
+2024-06-08 00:02:12,045 : INFO : TestUser : Search Button is clicked
+2024-06-08 00:02:12,585 : INFO : TestUser : Search result is verified successfully
+2024-06-08 00:02:30,560 : INFO : TestUser : Successfully logged into the application
+2024-06-08 00:02:35,523 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-08 00:02:36,102 : INFO : TestUser : Username is typed in the username text box
+2024-06-08 00:02:39,637 : INFO : TestUser : Admin is selected as the user role
+2024-06-08 00:02:39,926 : INFO : TestUser : Search Button is clicked
+2024-06-08 00:02:40,514 : INFO : TestUser : Search result is verified successfully
