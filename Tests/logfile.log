@@ -143,3 +143,9 @@
 2024-06-08 00:02:39,637 : INFO : TestUser : Admin is selected as the user role
 2024-06-08 00:02:39,926 : INFO : TestUser : Search Button is clicked
 2024-06-08 00:02:40,514 : INFO : TestUser : Search result is verified successfully
+2024-06-08 06:33:01,766 : INFO : test_searchreport : Login is successful
+2024-06-08 06:33:02,739 : INFO : test_searchreport : PIM button is clicked
+2024-06-08 06:33:04,097 : INFO : test_searchreport : report button is clicked
+2024-06-08 06:33:05,902 : INFO : test_searchreport : report is send
+2024-06-08 06:33:05,967 : INFO : test_searchreport : Report is fetched successfully
+2024-06-08 06:33:06,389 : INFO : test_searchreport : Report is fetched successfully
