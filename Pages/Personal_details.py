@@ -21,7 +21,7 @@ class PersonalDetailsPage(BasePage):
     expiryDate_locator="(//input[@class='oxd-input oxd-input--active'])[5]"
     nationality_locator="(//div[@class='oxd-select-text oxd-select-text--active'])[1]"
     marital_locator="(//div[@class='oxd-select-text oxd-select-text--active'])[2]"
-    dob_locator="(//input[@class='oxd-input oxd-input--active'])[6]"
+    dob_locator="(//input[@data-v-1f99f73c])[9]"
     male_locator=  "(//span[@data-v-7ef819fd])[1]"
     female_locator =  "(//span[@data-v-7ef819fd])[2]"
     save_locator =  "(//button[text()=' Save '])[1]"
@@ -66,19 +66,19 @@ class PersonalDetailsPage(BasePage):
         elif gender.lower() == "female":
             self.click(By.XPATH, self.female_locator)
 
-    def select_nationality(self, nationality):
-        nationality_dropdown = self.find(By.XPATH, self.nationality_locator)
-        nationality_dropdown.click()
-        nationality_option_locator = f"//span[text()='{nationality}']"
-        nationality_option = self.find(By.XPATH, nationality_option_locator)
-        nationality_option.click()
+    def select_country(self, country):
+        country_dropdown = self.find(By.XPATH, self.nationality_locator)
+        country_dropdown.click()
+        country_option_locator = f"//span[text()='{country}']"
+        country_option = self.find(By.XPATH, country_option_locator)
+        country_option.click()
 
-    def select_marital_status(self, status):
-        marital_status_dropdown = self.find(By.XPATH, self.marital_locator)
-        marital_status_dropdown.click()
-        status_option_locator = f"//span[text()='{status}']"
-        status_option = self.find(By.XPATH, status_option_locator)
-        status_option.click()
+    def select_status(self, country):
+        country_dropdown = self.find(By.XPATH, self.marital_locator)
+        country_dropdown.click()
+        country_option_locator = f"//span[text()='{country}']"
+        country_option = self.find(By.XPATH, country_option_locator)
+        country_option.click()
 
     def save_details(self):
         self.click(By.XPATH, self.save_locator)
@@ -93,6 +93,3 @@ class PersonalDetailsPage(BasePage):
             print("TimeoutException occurred while waiting for the update message.")
         except NoSuchElementException:
             print("NoSuchElementException: Update message element not found.")
-
-    
-
