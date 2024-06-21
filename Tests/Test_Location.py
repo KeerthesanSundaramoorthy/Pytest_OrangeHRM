@@ -30,4 +30,4 @@ class TestLocation:
         location.click_search()
         self.log.info("Search button is clicked") 
         assert location.assert_result()
-        self.log.info("Search result is seen and verified successfully")
+        self.log.info("Search result is seen and verified successfully")

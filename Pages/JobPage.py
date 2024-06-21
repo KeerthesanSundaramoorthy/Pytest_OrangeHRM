@@ -1,5 +1,4 @@
 """Author: Keerthesan (Expleo)"""
-import time
 from selenium.webdriver.common.by import By
 from Pages.BasePage import BasePage
 from selenium.webdriver.support import expected_conditions as ec
@@ -27,8 +26,7 @@ class JobPage(BasePage):
         """Navigates to the job functions page."""
         
         self.click(By.CSS_SELECTOR,self.admin_css)
-        admin = self.find(By.CSS_SELECTOR,self.admin_css)
-        self.click(admin)
+        #self.click(By.CSS_SELECTOR,self.admin_css)
         total = self.driver.window_handles
         for i in total:
             self.driver.switch_to.window(i)
@@ -103,42 +101,3 @@ class JobPage(BasePage):
         except Exception as e:
             print(f"An error occurred: {e}")
             return False
-                job = self.find(By.XPATH,self.job_xpath)
-                self.click(job)
-                job_titles = self.find(By.XPATH,self.job_titles_xpath)
-                self.click(job_titles)
-    
-
-    def job_title(self,title):
-        job_title_field = self.find(By.XPATH,self.job_text_xpath)
-        self.send_key(job_title_field,title)
-
-    def job_description(self,desc):
-        job_desc_field = self.find(By.XPATH,self.job_desc_xpath)
-        self.send_key(job_desc_field,desc)
-
-    def job_note(self,note):
-        job_note_field = self.find(By.XPATH,self.jb_note_xpath)
-        self.send_key(job_note_field,note)
-    
-    def click_cancel(self):
-        cancel_but = self.find(By.XPATH,self.cancel_button_xpath)
-        self.click(cancel_but)
-
-    def job_delete(self):
-        delete = self.find(By.XPATH,self.trash_xpath)
-        self.click(delete)
-        yes = self.find(By.XPATH,self.yes_del_xpath)
-        self.click(yes)
-
-    def assert_job(self):
-        expected = "Successfully Saved"
-        actual = self.find(By.XPATH,self.success_saved_xpath).text
-        return actual.__eq__(expected)
-    
-    def assert_previous(self):
-        return self.find(By.XPATH,self.trash_xpath).is_displayed()
-    
-    def assert_delete(self):
-        return self.find(By.XPATH,self.success_deleted_xpath).is_displayed()
-

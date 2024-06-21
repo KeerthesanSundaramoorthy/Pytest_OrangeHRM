@@ -12,11 +12,17 @@ class ForgotPasswordPage(BasePage):
     cancelPassword_locator= "//button[text()=' Cancel ']"
 
     def forgotPassword(self, username):
+
+        """The method is to fill forgot password"""
+
         self.find(By.XPATH,self.forgotPassword_locator).click()
         self.send_key(By.XPATH, self.username_locator, username)
         self.click(By.XPATH, self.resetPassword_locator)
 
     def forgotPassword_cancel(self, username):
+
+        """The method is to cancel the forgot password"""
+
         self.find(By.XPATH,self.forgotPassword_locator).click()
         self.send_key(By.XPATH, self.username_locator, username)
         self.click(By.XPATH, self.cancelPassword_locator)

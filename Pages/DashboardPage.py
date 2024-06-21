@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException,
 
 
 class DashboardPage(BasePage):
-
+    
     def __init__(self, driver):
        super().__init__(driver)
 
@@ -119,6 +119,7 @@ class DashboardPage(BasePage):
 
     #Employee Leave List
     list_xpath = "(//div[@class='orangehrm-dashboard-widget-body'])[3]"
+    
     def assign_leave(self):
         self.find(By.XPATH,self.assign_leave_xpath).click()
         

@@ -27,6 +27,9 @@ class PersonalDetailsPage(BasePage):
     save_locator =  "(//button[text()=' Save '])[1]"
 
     def personalDetails(self, Fname, Mname, Lname, Employee_id, Othr_id, Lnumber, Exp_date, dob):
+
+        """The method add the personal details"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.personalDetails_locator).click()
 
@@ -49,6 +52,9 @@ class PersonalDetailsPage(BasePage):
         self.send_key(By.XPATH, self.dob_locator, str(dob))
 
     def personalDetails_mandatory(self, Fname, Mname, Lname):
+
+        """The method add the personal details to mandatory fields"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.personalDetails_locator).click()
 
@@ -61,12 +67,18 @@ class PersonalDetailsPage(BasePage):
         self.send_key(By.XPATH, self.lastName_locator, Lname)
 
     def select_gender(self, gender):
+
+        """The method select the gender"""
+
         if gender.lower() == "male":
             self.click(By.XPATH, self.male_locator)
         elif gender.lower() == "female":
             self.click(By.XPATH, self.female_locator)
 
     def select_country(self, country):
+
+        """The method select the country"""
+
         country_dropdown = self.find(By.XPATH, self.nationality_locator)
         country_dropdown.click()
         country_option_locator = f"//span[text()='{country}']"
@@ -74,6 +86,9 @@ class PersonalDetailsPage(BasePage):
         country_option.click()
 
     def select_status(self, country):
+
+        """The method select the status"""
+
         country_dropdown = self.find(By.XPATH, self.marital_locator)
         country_dropdown.click()
         country_option_locator = f"//span[text()='{country}']"
@@ -81,9 +96,15 @@ class PersonalDetailsPage(BasePage):
         country_option.click()
 
     def save_details(self):
+
+        """The method click save  button"""
+
         self.click(By.XPATH, self.save_locator)
 
     def assert_details_saved_successfully(self):
+
+        """Assert if the successfully saved message is displayed"""
+
         update_message_locator = (By.XPATH, "//p[text()='Successfully Updated']")
         try:
             update_message = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(update_message_locator))

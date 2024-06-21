@@ -52,4 +52,3 @@ class TestNation:
         self.log.info("Save button is clicked") 
         nation.assert_existing_nation()
         self.log.info("Already exists message is seen and verified")
-

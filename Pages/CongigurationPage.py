@@ -5,8 +5,8 @@ from Pages.JobPage import JobPage
 
 class ConfigurationPage(JobPage):
 
-    def __init__(self, driver):
-       super().__init__(driver)
+    def _init_(self, driver):
+       super()._init_(driver)
 
     configurations_xpath = "(//span[@class='oxd-topbar-body-nav-tab-item'])[5]"
     email_config_xpath = "(//ul[@class='oxd-dropdown-menu']//a)[1]"

@@ -43,4 +43,3 @@ class TestGeneral:
         self.log.info("Save button is clicked") 
         assert gen.assert_added()
         self.log.info("Successfully Updated message is seen and verified")
-

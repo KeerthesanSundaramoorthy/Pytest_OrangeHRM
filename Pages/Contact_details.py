@@ -26,6 +26,9 @@ class ContactDetailsPage(BasePage):
     save_locator =  "(//button[text()=' Save '])[1]"
 
     def contactDetails(self, street1, street2, city, state, zip_code, home, mobile, work, work_email, other_email):
+
+        """The method add the contact details"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.contactDetails_locator).click()
 
@@ -52,6 +55,9 @@ class ContactDetailsPage(BasePage):
         self.send_key(By.XPATH, self.otherEmail_locator, other_email)
 
     def select_country(self, country):
+
+        """This method select the country"""
+
         country_dropdown = self.find(By.XPATH, self.country_locator)
         country_dropdown.click()
         country_option_locator = f"//span[text()='{country}']"
@@ -59,10 +65,16 @@ class ContactDetailsPage(BasePage):
         country_option.click()
 
     def save_details(self):
+
+        """This method click the save button"""
+
         self.click(By.XPATH, self.save_locator)
 
 
     def assert_details_saved_successfully(self):
+
+        """Assert the successfully saved message is displayed"""
+
         update_message_locator = (By.XPATH, "//p[text()='Successfully Updated']")
         try:
             update_message = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(update_message_locator))
@@ -74,6 +86,9 @@ class ContactDetailsPage(BasePage):
             print("NoSuchElementException: Update message element not found.")
 
     def assert_same_email_error_displayed(self):
+
+        """Assert the alert message is displayed"""
+
         error_message_locator = (By.XPATH, "//span[text()='Work Email and Other Email cannot be the same']")
         try:
             error_message = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(error_message_locator))

@@ -22,6 +22,9 @@ class EmergencyContactPage(BasePage):
     cancel_locator="(//button[@data-v-10d463b7])[1]"
 
     def emergencyContact(self, name, relationship, telephone, mobile, work):
+
+        """The method add the emergency contact details"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.emergencyContact_locator).click()
         self.find(By.XPATH, self.add_locator).click()
@@ -33,6 +36,9 @@ class EmergencyContactPage(BasePage):
         self.send_key(By.XPATH, self.work_locator, str(work))
 
     def emergencyContact_mandatory(self, name, relationship, telephone):
+
+        """The method add the emergency contact details to mandatory fields"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.emergencyContact_locator).click()
         self.find(By.XPATH, self.add_locator).click()
@@ -42,6 +48,9 @@ class EmergencyContactPage(BasePage):
         self.send_key(By.XPATH, self.telephone_locator, str(telephone))
 
     def emergencyContact_required(self, name, relationship):
+
+        """The method add the  emergency contact details to required fields"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.emergencyContact_locator).click()
         self.find(By.XPATH, self.add_locator).click()
@@ -50,13 +59,22 @@ class EmergencyContactPage(BasePage):
         self.send_key(By.XPATH, self.relationship_locator, relationship)
 
     def save_details(self):
+
+        """The method save cancel button"""
+
         self.click(By.XPATH, self.save_locator)
 
     def cancel_details(self):
+
+        """The method click cancel button"""
+
         self.click(By.XPATH, self.cancel_locator)
 
 
     def assert_update_message_displayed(self):
+
+        """Assert if the successfully saved message is displayed"""
+
         update_message_locator = (By.XPATH, "//p[text()='Successfully Updated']")
         try:
             update_message = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(update_message_locator))
@@ -68,6 +86,9 @@ class EmergencyContactPage(BasePage):
             print("NoSuchElementException: Update message element not found.")
 
     def assert_error_message_displayed(self):
+
+        """Assert if the alert message is displayed"""
+
         error_message_locator = (By.XPATH, "//span[text()='At least one phone number is required']")
         try:
             error_message = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(error_message_locator))

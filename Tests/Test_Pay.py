@@ -5,7 +5,7 @@ from Pages.PayGradePage import PayGradePage
 from Utility import Excel_Reader
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("paygrade",Excel_Reader.get_data("E:\\Pytest_OrangeHRM\\Excel_Files\\Pay_Grade.xlsx","Sheet1"))
+@pytest.mark.parametrize("paygrade", Excel_Reader.get_data(r"E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\Pay_Grade.xlsx", "Sheet1"))
 class TestPay:
 
     """TestPay class contains test methods to verify the new pay grade is added on the pay grade page."""

@@ -6,68 +6,63 @@ from Utility import console_logger
 @pytest.mark.usefixtures("setup_and_teardown")
 
 class TestQuickLaunch:
+    log = console_logger.get_logger()
     @pytest.mark.smoke
     def test_assignleave(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         dashboard.assign_leave()
-        log.info("Assign leave button is clicked")
+        self.log.info("Assign leave button is clicked")
         dashboard.leave_page_navigate()
-        log.info("Page navigates successfully")
+        self.log.info("Page navigates successfully")
 
     @pytest.mark.smoke
     def test_leavelist(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         dashboard.leave_list()
-        log.info("Leave list button is clicked")
+        self.log.info("Leave list button is clicked")
         dashboard.leave_page_navigate()
-        log.info("Page navigates successfully")
+        self.log.info("Page navigates successfully")
 
     @pytest.mark.smoke
     def test_timesheet(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         dashboard.timesheet_page()
-        log.info("Timesheet Page button is clicked")
+        self.log.info("Timesheet Page button is clicked")
         dashboard.timesheet_page_navigate()
-        log.info("Page navigates successfully")
+        self.log.info("Page navigates successfully")
 
     @pytest.mark.retest
     def test_applyleave(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         dashboard.apply_leave()
-        log.info("Apply leave button is clicked")
+        self.log.info("Apply leave button is clicked")
         dashboard.leave_page_navigate()
-        log.info("Page navigates successfully")
+        self.log.info("Page navigates successfully")
 
     @pytest.mark.retest
     def test_myleave(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         dashboard.my_leave()
-        log.info("My leave button is clicked")
+        self.log.info("My leave button is clicked")
         dashboard.leave_page_navigate()
-        log.info("Page navigates successfully")
+        self.log.info("Page navigates successfully")
 
     @pytest.mark.retest
     def test_mytimesheet(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         dashboard.my_timesheet()
-        log.info("My Timesheet button is clicked")
+        self.log.info("My Timesheet button is clicked")
         dashboard.timesheet_page_navigate()
-        log.info("Page navigates successfully")  
+        self.log.info("Page navigates successfully")  

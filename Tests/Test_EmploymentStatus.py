@@ -5,7 +5,7 @@ from Pages.EmploymentPage import EmploymentPage
 from Utility import Excel_Reader
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("status",Excel_Reader.get_data("D:\\Pytest_Clone_HRM\\Pytest_OrangeHRM\\Excel_Files\\Pay_Grade.xlsx","Sheet2"))
+@pytest.mark.parametrize("status",Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\Pay_Grade.xlsx","Sheet2"))
 class TestEmployment:
 
     """TestEmployment class contains test methods to validate the adding of new employment status on the employment page."""

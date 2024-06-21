@@ -20,6 +20,9 @@ class DependentPage(BasePage):
     save_locator="(//button[@data-v-10d463b7])[2]"
 
     def dependent(self, name, dob):
+
+        """The method add the dependent details"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.dependent_locator).click()
         self.find(By.XPATH, self.add_locator).click()
@@ -28,6 +31,9 @@ class DependentPage(BasePage):
         self.send_key(By.XPATH, self.dob_locator, str(dob))
 
     def dependent_mandatory(self, name):
+
+        """The method add the dependent details to mandatory fields"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.dependent_locator).click()
         self.find(By.XPATH, self.add_locator).click()
@@ -36,6 +42,9 @@ class DependentPage(BasePage):
       
 
     def select_relationship(self, relation):
+
+        """The method select the relationship"""
+
         relation_dropdown = self.find(By.XPATH, self.relation_locator)
         relation_dropdown.click()
         relation_option_locator = f"//span[text()='{relation}']"
@@ -43,12 +52,21 @@ class DependentPage(BasePage):
         relation_option.click()
 
     def save_details(self):
+
+        """The method click save button"""
+
         self.click(By.XPATH, self.save_locator)
 
     def cancel_details(self):
+
+        """The method click cancel button"""
+
         self.click(By.XPATH, self.cancel_locator)
 
     def assert_details_saved_successfully(self):
+
+        """Assert if the successfully saved message is displayed"""
+
         update_message_locator = (By.XPATH, "//p[text()='Successfully Saved']")
         try:
             update_message = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(update_message_locator))
