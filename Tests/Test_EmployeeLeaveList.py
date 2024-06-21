@@ -7,11 +7,11 @@ from Utility import console_logger
 
 
 class TestLeaveList:
+    log = console_logger.get_logger()
     @pytest.mark.retest
     def test_emp_leavelist(self):
-        log = console_logger.get_logger()
         Test_ValidLogin.TestLogin.test_valid_login(self)
-        log.info("Login is successfull")
-        dashboard = DashboardPage.Dashboard_Page(self.driver)
+        self.log.info("Login is successfull")
+        dashboard = DashboardPage.DashboardPage(self.driver)
         print(dashboard.emp_leavelist())
-        log.info("Print total number of people on leave")
+        self.log.info("Print total number of people on leave")

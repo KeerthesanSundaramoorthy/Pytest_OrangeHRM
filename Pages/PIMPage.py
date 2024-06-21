@@ -2,6 +2,7 @@ from Pages.BasePage import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.common.exceptions import TimeoutException,NoSuchElementException
 
 
 class PIM_Page(BasePage):
@@ -24,7 +25,8 @@ class PIM_Page(BasePage):
     Dropdown_xpath = "//div[@class='oxd-select-text oxd-select-text--active'][normalize-space()='-- Select --'])[1]"
     Employee_Id_xpath = "(//input[@class='oxd-input oxd-input--active'])[2]"
     Status_xpath = "(//div[@class='oxd-select-text oxd-select-text--active'][normalize-space()='-- Select --'])[1])"
-    no_record_xpath = "//span[@class='oxd-text oxd-text--span']"
+    no_record_xpath = "//p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']"
+    no_record_inpage_xpath = "//span[@class='oxd-text oxd-text--span']"
    
     #common 
     save_xpath = "//button[@type='submit']"
@@ -35,7 +37,7 @@ class PIM_Page(BasePage):
     reset_xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--ghost']"
 
     #delete locators
-    delete_xpath = "(//button/i[@class='oxd-icon bi-trash'])[5]"
+    delete_xpath = "(//button/i[@class='oxd-icon bi-trash'])[2]"
     yes_del_btn = "(//div[@class='orangehrm-modal-footer']//button)[2]"
     success_delete = "//p[text()='Successfully Deleted']"
 
@@ -66,8 +68,9 @@ class PIM_Page(BasePage):
         actual = self.find(By.XPATH,self.no_record_xpath).text
         assert actual.__eq__("No Records Found") 
 
+
     def valid_assert(self):
-        actual = self.find(By.XPATH,self.no_record_xpath).text
+        actual = self.find(By.XPATH,self.no_record_inpage_xpath).text
         assert actual.__eq__("No Records Found") == False
     
     #Add Button
@@ -147,7 +150,15 @@ class PIM_Page(BasePage):
     
     #To delete Record
     def delete_icon(self):
-        self.find(By.XPATH,self.delete_xpath).click()
+        try:
+            wait = WebDriverWait(self.driver, 15)
+            delete_button = wait.until(ec.element_to_be_clickable((By.XPATH, self.delete_xpath)))
+            delete_button.click()
+        except TimeoutException:
+            print("Timeout: Delete button was not clickable after waiting for 15 seconds")
+        except NoSuchElementException:
+            print("NoSuchElementException: Error occured")
+        #self.find(By.XPATH,self.delete_xpath).click()
 
     def click_yes_btn(self):
         self.find(By.XPATH,self.yes_del_btn).click()
@@ -164,4 +175,9 @@ class PIM_Page(BasePage):
     def edit_assert(self):
         actual = "Edit Vacancy"
         expected = self.find(By.XPATH,"//h6[@class='oxd-text oxd-text--h6 orangehrm-main-title']").text
+        assert actual.__eq__(expected)
+
+    def edit_assert_search(self):
+        actual = "Personal Details"
+        expected = self.find(By.XPATH,"//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//h6").text
         assert actual.__eq__(expected)

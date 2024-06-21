@@ -1,11 +1,110 @@
-from Pages.BasePage import BasePage
+"""Author: Keerthesan (Expleo)"""
 from selenium.webdriver.common.by import By
+from Pages.BasePage import BasePage
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, JavascriptException
 
-class Dashboard_Page(BasePage):
 
+class DashboardPage(BasePage):
+    
     def __init__(self, driver):
-        super().__init__(driver)
+       super().__init__(driver)
 
+    clock_css = "button[class='oxd-icon-button oxd-icon-button--solid-main orangehrm-attendance-card-action'][type='button']"
+    punch_out_xpath = "(//div[@class='orangehrm-paper-container']//label)[1]"
+    pending_xpath = "(//div[@class='orangehrm-todo-list']//p)[1]"
+    review_xpath = "(//div[@class='orangehrm-todo-list']//p)[2]"
+    my_review_xpath = "//h6[contains(@class,'oxd-text oxd-text--h6 orangehrm-main-title')]"
+    candidates_xpath = "//h5[text()='Candidates']"
+
+    def click_clock(self):
+
+        """Clicks on the clock button."""
+
+        try:
+            self.click(By.CSS_SELECTOR,self.clock_css)
+        
+        except TimeoutException as e:
+            print(f"TimeoutException: Element {self.clock_css} not clickable after waiting. {e}")
+        
+        except NoSuchElementException as e:
+            print(f"NoSuchElementException: Element {self.clock_css} not found. {e}")
+        
+        except Exception as e:
+            print(f"Exception occurred while trying to click element {self.clock_css}. {e}")
+    
+    def assert_punch(self):
+
+        """Asserts the punch-out text."""
+
+        try:
+            actual = "Date"
+            expected = self.find(By.XPATH, self.punch_out_xpath).text
+            assert actual.__eq__(expected), f"Assertion failed: expected text is '{expected}', but the actual text is '{actual}'"
+            return True
+        
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
+    
+    def pending_review(self):
+
+        """Clicks on the pending review element."""
+
+        try:
+            self.click(By.XPATH,self.pending_xpath)
+        
+        except TimeoutException as e:
+            print(f"TimeoutException: Element {self.pending_xpath} not clickable after waiting. {e}")
+        
+        except NoSuchElementException as e:
+            print(f"NoSuchElementException: Element {self.pending_xpath} not found. {e}")
+        
+        except Exception as e:
+            print(f"Exception occurred while trying to click element {self.pending_xpath}. {e}")
+    
+    def assert_performance(self):
+
+        """Asserts the performance review text."""
+
+        try:
+            actual = "My Reviews"
+            expected = self.find(By.XPATH,self.my_review_xpath).text
+            assert actual.__eq__(expected), f"Assertion failed: expected text is '{expected}', but the actual text is '{actual}'"
+            return True
+        
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
+    
+    def remaining_review(self):
+
+        """Clicks on the remaining review element."""
+
+        try:
+            self.click(By.XPATH,self.review_xpath)
+        
+        except TimeoutException as e:
+            print(f"TimeoutException: Element {self.review_xpath} not clickable after waiting. {e}")
+        
+        except NoSuchElementException as e:
+            print(f"NoSuchElementException: Element {self.review_xpath} not found. {e}")
+        
+        except Exception as e:
+            print(f"Exception occurred while trying to click element {self.review_xpath}. {e}")
+
+    def assert_recruitment(self):
+
+        """ Asserts the recruitment text."""
+
+        try:
+            actual = "Candidates"
+            expected = self.find(By.XPATH,self.candidates_xpath).text
+            assert actual.__eq__(expected), f"Assertion failed: expected text is '{expected}', but the actual text is '{actual}'"
+            return True
+        
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return False
     # QuickLaunch Icon locators
     assign_leave_xpath = "(//button[@class='oxd-icon-button orangehrm-quick-launch-icon']//*[local-name()='svg'])[1]"
     leave_list_xpath =  "(//button[@class='oxd-icon-button orangehrm-quick-launch-icon']//*[local-name()='svg'])[2]"
@@ -20,6 +119,7 @@ class Dashboard_Page(BasePage):
 
     #Employee Leave List
     list_xpath = "(//div[@class='orangehrm-dashboard-widget-body'])[3]"
+    
     def assign_leave(self):
         self.find(By.XPATH,self.assign_leave_xpath).click()
         

@@ -1,6 +1,1350 @@
+2024-06-07 22:32:08,481 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:32:11,041 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-07 22:32:25,003 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:32:27,135 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-07 22:32:27,724 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-07 22:32:45,310 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:32:47,545 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-07 22:32:48,031 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-07 22:35:42,060 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:35:44,643 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-07 22:35:45,202 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-07 22:36:02,877 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:36:05,295 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-07 22:36:05,798 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-07 22:36:22,026 : INFO : TestActions : Successfully logged into the application
+2024-06-07 22:36:24,193 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-07 22:36:24,705 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-07 23:51:01,688 : INFO : TestActions : Successfully logged into the application
+2024-06-07 23:51:04,188 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-07 23:51:04,815 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-07 23:51:31,945 : INFO : TestActions : Successfully logged into the application
+2024-06-07 23:51:34,486 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-07 23:51:35,019 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-07 23:51:59,877 : INFO : TestActions : Successfully logged into the application
+2024-06-07 23:52:03,062 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-07 23:52:05,128 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-07 23:52:22,473 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-07 23:52:24,548 : INFO : TestConfigurations : Configurations is clicked from the drop down successfully
+2024-06-07 23:52:35,682 : INFO : TestConfigurations : Test Email is typed in the appropriate text box
+2024-06-07 23:52:46,745 : INFO : TestConfigurations : Male gender checkbox is clicked
+2024-06-07 23:52:57,845 : INFO : TestConfigurations : Sent Email is enabled
+2024-06-07 23:53:08,938 : INFO : TestConfigurations : Sent Email is typed in the appropriate text box
+2024-06-07 23:53:12,924 : INFO : TestConfigurations : Save button is clicked
+2024-06-07 23:53:30,502 : INFO : TestEmployment : Successfully logged into the application
+2024-06-07 23:53:35,018 : INFO : TestEmployment : Employment Status is clicked from the drop down successfully
+2024-06-07 23:53:37,073 : INFO : TestEmployment : Add button is clicked
+2024-06-07 23:53:37,639 : INFO : TestEmployment : Employment name is typed in the appropriate text box
+2024-06-07 23:53:37,955 : INFO : TestEmployment : Save button is clicked
+2024-06-07 23:53:40,055 : INFO : TestEmployment : Successfully Saved message is seen and verified
+2024-06-07 23:53:56,755 : INFO : TestGeneral : Successfully logged into the application
+2024-06-07 23:54:04,555 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-07 23:54:04,621 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-07 23:54:23,737 : INFO : TestGeneral : Successfully logged into the application
+2024-06-07 23:54:30,648 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-07 23:54:32,778 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-07 23:54:33,143 : INFO : TestGeneral : Save button is clicked
+2024-06-07 23:54:33,998 : INFO : TestGeneral : Successfully Updated message is seen and verified
+2024-06-07 23:54:50,084 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:54:56,609 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:54:58,215 : INFO : TestJob : Add button is clicked
+2024-06-07 23:54:58,741 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-07 23:54:58,764 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-07 23:54:58,785 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-07 23:54:59,112 : INFO : TestJob : Save button is clicked
+2024-06-07 23:55:01,022 : INFO : TestJob : Successfully Saved message is seen and verified
+2024-06-07 23:55:24,615 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:55:30,936 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:55:32,193 : INFO : TestJob : Add button is clicked
+2024-06-07 23:55:32,694 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-07 23:55:32,724 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-07 23:55:32,750 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-07 23:55:33,610 : INFO : TestJob : Cancel button is clicked
+2024-06-07 23:55:34,751 : INFO : TestJob : Previous Page is loaded and verified
+2024-06-07 23:55:53,511 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:56:01,392 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:56:03,006 : INFO : TestJob : Add button is clicked
+2024-06-07 23:56:03,916 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-07 23:56:04,294 : INFO : TestJob : Save button is clicked
+2024-06-07 23:56:06,037 : INFO : TestJob : Successfully Saved message is seen and verified
+2024-06-07 23:56:24,945 : INFO : TestJob : Successfully logged into the application
+2024-06-07 23:56:34,602 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-07 23:56:36,304 : INFO : TestJob : Delete button is clicked
+2024-06-07 23:56:36,856 : INFO : TestJob : Successfully Deleted message is seen and verified
+2024-06-07 23:56:51,731 : INFO : TestLocation : Successfully logged into the application
+2024-06-07 23:56:56,250 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-07 23:56:57,367 : INFO : TestLocation : Location is filled and name,city is is typed in the appropriate text box
+2024-06-07 23:56:57,663 : INFO : TestLocation : Search button is clicked
+2024-06-07 23:56:58,187 : INFO : TestLocation : Search result is seen and verified successfully
+2024-06-07 23:57:21,581 : INFO : TestMembership : Successfully logged into the application
+2024-06-07 23:57:26,336 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-07 23:57:27,278 : INFO : TestMembership : Add button is clicked
+2024-06-07 23:57:27,772 : INFO : TestMembership : Acca is selected as the member role
+2024-06-07 23:57:28,244 : INFO : TestMembership : Company is selected as the subscription method
+2024-06-07 23:57:28,312 : INFO : TestMembership : Subscription amount is typed in the appropriate text box
+2024-06-07 23:57:28,789 : INFO : TestMembership : Appropriate currency is selected
+2024-06-07 23:57:28,839 : INFO : TestMembership : Commence date is typed in the appropriate text box
+2024-06-07 23:57:28,890 : INFO : TestMembership : Renewal date is typed in the appropriate text box
+2024-06-07 23:57:29,235 : INFO : TestMembership : Save button is clicked
+2024-06-07 23:57:30,026 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-07 23:58:03,981 : INFO : TestMembership : Successfully logged into the application
+2024-06-07 23:58:09,179 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-07 23:58:10,068 : INFO : TestMembership : Add button is clicked
+2024-06-07 23:58:10,552 : INFO : TestMembership : Acca is selected as the member role
+2024-06-07 23:58:10,874 : INFO : TestMembership : Save button is clicked
+2024-06-07 23:58:11,440 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-07 23:58:28,957 : INFO : TestNation : Successfully logged into the application
+2024-06-07 23:58:34,581 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-07 23:58:35,976 : INFO : TestNation : Add button is clicked
+2024-06-07 23:58:36,548 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-07 23:58:36,876 : INFO : TestNation : Save button is clicked
+2024-06-07 23:58:38,950 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-07 23:58:58,513 : INFO : TestNation : Successfully logged into the application
+2024-06-07 23:59:05,724 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-07 23:59:07,262 : INFO : TestNation : Add button is clicked
+2024-06-07 23:59:07,707 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-07 23:59:08,028 : INFO : TestNation : Save button is clicked
+2024-06-07 23:59:09,268 : INFO : TestNation : Already exists message is seen and verified
+2024-06-07 23:59:30,085 : INFO : TestPay : Successfully logged into the application
+2024-06-07 23:59:35,432 : INFO : TestPay : Pay Grade is clicked from the drop down successfully
+2024-06-07 23:59:37,259 : INFO : TestPay : Add button is clicked
+2024-06-07 23:59:38,146 : INFO : TestPay : Pay Grade is typed in the appropriate text box
+2024-06-07 23:59:38,482 : INFO : TestPay : Save button is clicked
+2024-06-07 23:59:38,562 : INFO : TestPay : Successfully Saved message is seen and verified
+2024-06-07 23:59:58,825 : INFO : TestQualification : Successfully logged into the application
+2024-06-08 00:00:04,789 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-08 00:00:08,184 : INFO : TestQualification : Add button is clicked
+2024-06-08 00:00:08,232 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-08 00:00:08,259 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-08 00:00:08,283 : INFO : TestQualification : From date is typed in the appropriate text box
+2024-06-08 00:00:08,319 : INFO : TestQualification : To Date is typed in the appropriate text box
+2024-06-08 00:00:08,351 : INFO : TestQualification : Comment is typed in the appropriate text box
+2024-06-08 00:00:08,656 : INFO : TestQualification : Save button is clicked
+2024-06-08 00:00:11,732 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-08 00:00:29,550 : INFO : TestQualification : Successfully logged into the application
+2024-06-08 00:00:34,375 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-08 00:00:35,190 : INFO : TestQualification : Add button is clicked
+2024-06-08 00:00:35,230 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-08 00:00:35,260 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-08 00:00:35,590 : INFO : TestQualification : Save button is clicked
+2024-06-08 00:00:36,426 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-08 00:00:54,136 : INFO : TestUser : Successfully logged into the application
+2024-06-08 00:00:56,235 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-08 00:01:07,306 : INFO : TestUser : Username is typed in the username text box
+2024-06-08 00:02:05,549 : INFO : TestUser : Successfully logged into the application
+2024-06-08 00:02:10,498 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-08 00:02:11,260 : INFO : TestUser : Username is typed in the username text box
+2024-06-08 00:02:11,725 : INFO : TestUser : Enable status is selected
+2024-06-08 00:02:12,045 : INFO : TestUser : Search Button is clicked
+2024-06-08 00:02:12,585 : INFO : TestUser : Search result is verified successfully
+2024-06-08 00:02:30,560 : INFO : TestUser : Successfully logged into the application
+2024-06-08 00:02:35,523 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-08 00:02:36,102 : INFO : TestUser : Username is typed in the username text box
+2024-06-08 00:02:39,637 : INFO : TestUser : Admin is selected as the user role
+2024-06-08 00:02:39,926 : INFO : TestUser : Search Button is clicked
+2024-06-08 00:02:40,514 : INFO : TestUser : Search result is verified successfully
 2024-06-08 06:33:01,766 : INFO : test_searchreport : Login is successful
 2024-06-08 06:33:02,739 : INFO : test_searchreport : PIM button is clicked
 2024-06-08 06:33:04,097 : INFO : test_searchreport : report button is clicked
 2024-06-08 06:33:05,902 : INFO : test_searchreport : report is send
 2024-06-08 06:33:05,967 : INFO : test_searchreport : Report is fetched successfully
 2024-06-08 06:33:06,389 : INFO : test_searchreport : Report is fetched successfully
+2024-06-16 14:29:08,458 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:29:08,463 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-16 14:35:02,638 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:35:05,377 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-16 14:35:05,880 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-16 14:35:19,422 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:35:21,636 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-16 14:35:22,158 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-16 14:35:35,680 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:35:37,863 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-16 14:35:38,339 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-16 14:37:34,095 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-16 14:37:37,814 : INFO : TestConfigurations : Configurations is clicked from the drop down successfully
+2024-06-16 14:37:38,252 : INFO : TestConfigurations : Test Email is typed in the appropriate text box
+2024-06-16 14:37:38,590 : INFO : TestConfigurations : Male gender checkbox is clicked
+2024-06-16 14:37:38,924 : INFO : TestConfigurations : Sent Email is enabled
+2024-06-16 14:37:38,990 : INFO : TestConfigurations : Sent Email is typed in the appropriate text box
+2024-06-16 14:37:39,329 : INFO : TestConfigurations : Save button is clicked
+2024-06-16 14:37:40,420 : INFO : TestConfigurations : Email sent message is seen and verified
+2024-06-16 14:41:45,692 : INFO : TestEmployment : Successfully logged into the application
+2024-06-16 14:41:49,869 : INFO : TestEmployment : Employment Status is clicked from the drop down successfully
+2024-06-16 14:41:51,384 : INFO : TestEmployment : Add button is clicked
+2024-06-16 14:41:51,880 : INFO : TestEmployment : Employment name is typed in the appropriate text box
+2024-06-16 14:41:52,220 : INFO : TestEmployment : Save button is clicked
+2024-06-16 14:41:53,592 : INFO : TestEmployment : Successfully Saved message is seen and verified
+2024-06-16 14:42:28,874 : INFO : TestGeneral : Successfully logged into the application
+2024-06-16 14:42:35,120 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-16 14:42:35,174 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-16 14:42:48,662 : INFO : TestGeneral : Successfully logged into the application
+2024-06-16 14:42:53,433 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-16 14:42:53,573 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-16 14:42:53,927 : INFO : TestGeneral : Save button is clicked
+2024-06-16 14:42:54,369 : INFO : TestGeneral : Successfully Updated message is seen and verified
+2024-06-16 14:45:22,374 : INFO : TestJob : Successfully logged into the application
+2024-06-16 14:45:32,766 : INFO : TestJob : Successfully logged into the application
+2024-06-16 14:46:00,259 : INFO : TestJob : Successfully logged into the application
+2024-06-16 14:46:15,516 : INFO : TestJob : Successfully logged into the application
+2024-06-16 14:46:26,075 : INFO : TestLocation : Successfully logged into the application
+2024-06-16 14:46:29,980 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-16 14:46:30,979 : INFO : TestLocation : Location is filled and name,city is is typed in the appropriate text box
+2024-06-16 14:46:31,310 : INFO : TestLocation : Search button is clicked
+2024-06-16 14:46:31,753 : INFO : TestLocation : Search result is seen and verified successfully
+2024-06-16 14:46:41,505 : INFO : TestMembership : Successfully logged into the application
+2024-06-16 14:46:44,707 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-16 14:46:45,643 : INFO : TestMembership : Add button is clicked
+2024-06-16 14:46:46,094 : INFO : TestMembership : Acca is selected as the member role
+2024-06-16 14:46:46,520 : INFO : TestMembership : Company is selected as the subscription method
+2024-06-16 14:46:46,564 : INFO : TestMembership : Subscription amount is typed in the appropriate text box
+2024-06-16 14:46:47,004 : INFO : TestMembership : Appropriate currency is selected
+2024-06-16 14:46:47,071 : INFO : TestMembership : Commence date is typed in the appropriate text box
+2024-06-16 14:46:47,147 : INFO : TestMembership : Renewal date is typed in the appropriate text box
+2024-06-16 14:46:47,491 : INFO : TestMembership : Save button is clicked
+2024-06-16 14:46:47,961 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-16 14:47:01,091 : INFO : TestMembership : Successfully logged into the application
+2024-06-16 14:47:04,257 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-16 14:47:05,354 : INFO : TestMembership : Add button is clicked
+2024-06-16 14:47:05,758 : INFO : TestMembership : Acca is selected as the member role
+2024-06-16 14:47:06,070 : INFO : TestMembership : Save button is clicked
+2024-06-16 14:47:09,004 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-16 14:47:23,623 : INFO : TestNation : Successfully logged into the application
+2024-06-16 14:47:27,194 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-16 14:47:28,424 : INFO : TestNation : Add button is clicked
+2024-06-16 14:47:28,839 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-16 14:47:29,163 : INFO : TestNation : Save button is clicked
+2024-06-16 14:47:30,607 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-16 14:47:44,385 : INFO : TestNation : Successfully logged into the application
+2024-06-16 14:47:50,238 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-16 14:47:51,417 : INFO : TestNation : Add button is clicked
+2024-06-16 14:47:51,809 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-16 14:47:52,137 : INFO : TestNation : Save button is clicked
+2024-06-16 14:47:53,250 : INFO : TestNation : Already exists message is seen and verified
+2024-06-16 14:48:03,552 : INFO : TestPay : Successfully logged into the application
+2024-06-16 14:48:08,509 : INFO : TestPay : Pay Grade is clicked from the drop down successfully
+2024-06-16 14:48:10,089 : INFO : TestPay : Add button is clicked
+2024-06-16 14:48:10,522 : INFO : TestPay : Pay Grade is typed in the appropriate text box
+2024-06-16 14:48:10,851 : INFO : TestPay : Save button is clicked
+2024-06-16 14:48:10,901 : INFO : TestPay : Successfully Saved message is seen and verified
+2024-06-16 14:49:46,457 : INFO : TestQualification : Successfully logged into the application
+2024-06-16 14:49:50,013 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-16 14:49:50,782 : INFO : TestQualification : Add button is clicked
+2024-06-16 14:49:50,834 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-16 14:49:50,878 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-16 14:49:50,939 : INFO : TestQualification : From date is typed in the appropriate text box
+2024-06-16 14:49:50,988 : INFO : TestQualification : To Date is typed in the appropriate text box
+2024-06-16 14:49:51,029 : INFO : TestQualification : Comment is typed in the appropriate text box
+2024-06-16 14:49:51,347 : INFO : TestQualification : Save button is clicked
+2024-06-16 14:49:51,787 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-16 14:50:05,354 : INFO : TestQualification : Successfully logged into the application
+2024-06-16 14:50:09,580 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-16 14:50:10,608 : INFO : TestQualification : Add button is clicked
+2024-06-16 14:50:10,673 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-16 14:50:10,738 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-16 14:50:11,075 : INFO : TestQualification : Save button is clicked
+2024-06-16 14:50:12,448 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-16 14:50:23,945 : INFO : TestUser : Successfully logged into the application
+2024-06-16 14:50:27,800 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 14:50:28,364 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 14:50:28,881 : INFO : TestUser : ess is selected as the user role
+2024-06-16 14:50:30,307 : INFO : TestUser : Employee name is typed in the Employee name text box
+2024-06-16 14:50:30,694 : INFO : TestUser : Enable status is selected
+2024-06-16 14:50:31,012 : INFO : TestUser : Search Button is clicked
+2024-06-16 14:50:31,686 : INFO : TestUser : Search result is verified successfully
+2024-06-16 14:50:45,251 : INFO : TestUser : Successfully logged into the application
+2024-06-16 14:50:52,049 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 14:50:52,573 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 14:50:53,100 : INFO : TestUser : Enable status is selected
+2024-06-16 14:50:53,446 : INFO : TestUser : Search Button is clicked
+2024-06-16 14:50:53,856 : INFO : TestUser : Search result is verified successfully
+2024-06-16 14:51:07,072 : INFO : TestUser : Successfully logged into the application
+2024-06-16 14:51:13,821 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 14:51:14,532 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 14:51:18,108 : INFO : TestUser : Admin is selected as the user role
+2024-06-16 14:51:18,429 : INFO : TestUser : Search Button is clicked
+2024-06-16 14:51:18,867 : INFO : TestUser : Search result is verified successfully
+2024-06-16 14:58:10,179 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:58:13,003 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-16 14:58:13,429 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-16 14:58:24,517 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:58:26,730 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-16 14:58:27,151 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-16 14:58:41,051 : INFO : TestActions : Successfully logged into the application
+2024-06-16 14:58:46,279 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-16 14:58:46,859 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-16 14:59:22,257 : INFO : test_candidate : Login is successfull
+2024-06-16 14:59:24,088 : INFO : test_candidate : Recruiment button is clicked
+2024-06-16 14:59:26,039 : INFO : test_candidate : Candidate buton is clicked
+2024-06-16 14:59:27,583 : INFO : test_candidate : Vacancy field is filled
+2024-06-16 14:59:27,971 : INFO : test_candidate : Status field is filled
+2024-06-16 14:59:28,034 : INFO : test_candidate : search button is clicked
+2024-06-16 14:59:28,597 : INFO : test_candidate : Successfull search
+2024-06-16 14:59:42,130 : INFO : test_delete : Login is successfull
+2024-06-16 14:59:44,080 : INFO : test_delete : Recruiment button is clicked
+2024-06-16 14:59:45,953 : INFO : test_delete : Candidate buton is clicked
+2024-06-16 14:59:47,117 : INFO : test_delete : Delete icon is clicked
+2024-06-16 14:59:47,270 : INFO : test_delete : Yes button is clicked
+2024-06-16 14:59:47,745 : INFO : test_delete : Successfully deleted
+2024-06-16 15:00:45,615 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-16 15:00:49,221 : INFO : TestConfigurations : Configurations is clicked from the drop down successfully
+2024-06-16 15:00:49,650 : INFO : TestConfigurations : Test Email is typed in the appropriate text box
+2024-06-16 15:00:49,964 : INFO : TestConfigurations : Male gender checkbox is clicked
+2024-06-16 15:00:50,011 : INFO : TestConfigurations : Sent Email is enabled
+2024-06-16 15:01:01,049 : INFO : TestConfigurations : Sent Email is typed in the appropriate text box
+2024-06-16 15:01:01,350 : INFO : TestConfigurations : Save button is clicked
+2024-06-16 15:05:02,046 : INFO : test_emp_leavelist : Login is successfull
+2024-06-16 15:05:10,941 : INFO : TestEmployment : Successfully logged into the application
+2024-06-16 15:05:18,051 : INFO : TestEmployment : Employment Status is clicked from the drop down successfully
+2024-06-16 15:05:19,308 : INFO : TestEmployment : Add button is clicked
+2024-06-16 15:05:19,760 : INFO : TestEmployment : Employment name is typed in the appropriate text box
+2024-06-16 15:05:20,105 : INFO : TestEmployment : Save button is clicked
+2024-06-16 15:06:09,623 : INFO : TestGeneral : Successfully logged into the application
+2024-06-16 15:06:14,959 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-16 15:06:15,001 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-16 15:06:25,821 : INFO : TestGeneral : Successfully logged into the application
+2024-06-16 15:06:30,647 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-16 15:06:30,783 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-16 15:06:31,175 : INFO : TestGeneral : Save button is clicked
+2024-06-16 15:06:31,554 : INFO : TestGeneral : Successfully Updated message is seen and verified
+2024-06-16 15:08:15,879 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:08:17,925 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:08:19,195 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:08:19,636 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:08:20,197 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:08:20,230 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:08:31,765 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:08:31,765 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:08:34,108 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:08:34,108 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:08:35,311 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:08:35,311 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:08:35,311 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:08:35,311 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:08:36,287 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:08:36,287 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:08:36,327 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:08:36,327 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:08:47,441 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:08:47,441 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:08:47,441 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:08:49,107 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:08:49,107 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:08:49,107 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:08:50,238 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:08:50,238 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:08:50,238 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:08:50,702 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:08:50,702 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:08:50,702 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:08:51,272 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:08:51,272 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:08:51,272 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:08:51,322 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:08:51,322 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:08:51,322 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:09:10,252 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:09:21,326 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:09:32,487 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:09:42,708 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:10:00,988 : INFO : TestLocation : Successfully logged into the application
+2024-06-16 15:10:05,675 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-16 15:10:06,790 : INFO : TestLocation : Location is filled and name,city is is typed in the appropriate text box
+2024-06-16 15:10:07,139 : INFO : TestLocation : Search button is clicked
+2024-06-16 15:10:12,880 : INFO : TestLocation : Search result is seen and verified successfully
+2024-06-16 15:10:22,656 : INFO : TestMembership : Successfully logged into the application
+2024-06-16 15:10:25,816 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-16 15:10:26,547 : INFO : TestMembership : Add button is clicked
+2024-06-16 15:10:26,989 : INFO : TestMembership : Acca is selected as the member role
+2024-06-16 15:10:27,452 : INFO : TestMembership : Company is selected as the subscription method
+2024-06-16 15:10:27,500 : INFO : TestMembership : Subscription amount is typed in the appropriate text box
+2024-06-16 15:10:27,992 : INFO : TestMembership : Appropriate currency is selected
+2024-06-16 15:10:28,058 : INFO : TestMembership : Commence date is typed in the appropriate text box
+2024-06-16 15:10:28,120 : INFO : TestMembership : Renewal date is typed in the appropriate text box
+2024-06-16 15:10:28,452 : INFO : TestMembership : Save button is clicked
+2024-06-16 15:10:28,893 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-16 15:10:44,800 : INFO : TestMembership : Successfully logged into the application
+2024-06-16 15:10:48,622 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-16 15:10:49,386 : INFO : TestMembership : Add button is clicked
+2024-06-16 15:10:49,882 : INFO : TestMembership : Acca is selected as the member role
+2024-06-16 15:10:50,201 : INFO : TestMembership : Save button is clicked
+2024-06-16 15:10:50,710 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-16 15:11:00,748 : INFO : TestNation : Successfully logged into the application
+2024-06-16 15:11:03,857 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-16 15:11:05,156 : INFO : TestNation : Add button is clicked
+2024-06-16 15:11:05,608 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-16 15:11:05,951 : INFO : TestNation : Save button is clicked
+2024-06-16 15:11:17,051 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-16 15:11:30,442 : INFO : TestNation : Successfully logged into the application
+2024-06-16 15:11:34,800 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-16 15:11:35,971 : INFO : TestNation : Add button is clicked
+2024-06-16 15:11:36,413 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-16 15:11:36,715 : INFO : TestNation : Save button is clicked
+2024-06-16 15:11:37,980 : INFO : TestNation : Already exists message is seen and verified
+2024-06-16 15:11:48,047 : INFO : TestPay : Successfully logged into the application
+2024-06-16 15:11:52,167 : INFO : TestPay : Pay Grade is clicked from the drop down successfully
+2024-06-16 15:11:53,340 : INFO : TestPay : Add button is clicked
+2024-06-16 15:11:53,736 : INFO : TestPay : Pay Grade is typed in the appropriate text box
+2024-06-16 15:11:54,055 : INFO : TestPay : Save button is clicked
+2024-06-16 15:11:54,123 : INFO : TestPay : Successfully Saved message is seen and verified
+2024-06-16 15:13:25,237 : INFO : TestQualification : Successfully logged into the application
+2024-06-16 15:13:28,472 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-16 15:13:29,240 : INFO : TestQualification : Add button is clicked
+2024-06-16 15:13:29,286 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-16 15:13:29,343 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-16 15:13:29,400 : INFO : TestQualification : From date is typed in the appropriate text box
+2024-06-16 15:13:29,457 : INFO : TestQualification : To Date is typed in the appropriate text box
+2024-06-16 15:13:29,516 : INFO : TestQualification : Comment is typed in the appropriate text box
+2024-06-16 15:13:29,866 : INFO : TestQualification : Save button is clicked
+2024-06-16 15:13:30,336 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-16 15:13:44,201 : INFO : TestQualification : Successfully logged into the application
+2024-06-16 15:13:47,933 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-16 15:13:48,773 : INFO : TestQualification : Add button is clicked
+2024-06-16 15:13:48,819 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-16 15:13:48,878 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-16 15:13:49,226 : INFO : TestQualification : Save button is clicked
+2024-06-16 15:13:49,831 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-16 15:13:59,538 : INFO : TestUser : Successfully logged into the application
+2024-06-16 15:14:03,381 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 15:14:03,894 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 15:14:04,337 : INFO : TestUser : ess is selected as the user role
+2024-06-16 15:14:06,045 : INFO : TestUser : Employee name is typed in the Employee name text box
+2024-06-16 15:14:06,487 : INFO : TestUser : Enable status is selected
+2024-06-16 15:14:06,819 : INFO : TestUser : Search Button is clicked
+2024-06-16 15:14:07,585 : INFO : TestUser : Search result is verified successfully
+2024-06-16 15:14:21,030 : INFO : TestUser : Successfully logged into the application
+2024-06-16 15:14:24,959 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 15:14:25,484 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 15:14:25,953 : INFO : TestUser : Enable status is selected
+2024-06-16 15:14:26,265 : INFO : TestUser : Search Button is clicked
+2024-06-16 15:14:26,775 : INFO : TestUser : Search result is verified successfully
+2024-06-16 15:14:40,290 : INFO : TestUser : Successfully logged into the application
+2024-06-16 15:14:44,357 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 15:14:44,930 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 15:14:48,203 : INFO : TestUser : Admin is selected as the user role
+2024-06-16 15:14:48,504 : INFO : TestUser : Search Button is clicked
+2024-06-16 15:14:49,072 : INFO : TestUser : Search result is verified successfully
+2024-06-16 15:15:01,708 : INFO : test_vacancy : Login is successfull
+2024-06-16 15:15:03,949 : INFO : test_vacancy : Recruiment button is clicked
+2024-06-16 15:15:05,364 : INFO : test_vacancy : Vacancies button is clicked
+2024-06-16 15:15:06,984 : INFO : test_vacancy : vacancy field is filled
+2024-06-16 15:15:07,412 : INFO : test_vacancy : Status field is filled
+2024-06-16 15:15:07,496 : INFO : test_vacancy : Search button is clicked
+2024-06-16 15:15:08,002 : INFO : test_vacancy : Successfull search
+2024-06-16 15:15:21,906 : INFO : test_deletelist : Login is successfull
+2024-06-16 15:15:23,660 : INFO : test_deletelist : Recruiment button is clicked
+2024-06-16 15:15:25,189 : INFO : test_deletelist : Vacancies button is clicked
+2024-06-16 15:15:26,260 : INFO : test_deletelist : Delete icon is clicked
+2024-06-16 15:15:26,402 : INFO : test_deletelist : Yes button is clicked
+2024-06-16 15:15:26,884 : INFO : test_deletelist : Successfully deleted
+2024-06-16 15:15:38,037 : INFO : test_editemp : Login is successfull
+2024-06-16 15:15:40,060 : INFO : test_editemp : Recruiment button is clicked
+2024-06-16 15:15:41,690 : INFO : test_editemp : Vacancies button is clicked
+2024-06-16 15:15:43,243 : INFO : test_editemp : Edit icon is clicked
+2024-06-16 15:15:43,694 : INFO : test_editemp : Edit is successfully done
+2024-06-16 15:15:56,989 : INFO : test_validAddEmp : Login is successful
+2024-06-16 15:15:58,897 : INFO : test_validAddEmp : PIM button is clicked
+2024-06-16 15:16:00,124 : INFO : test_validAddEmp : Add Employee button is clicked
+2024-06-16 15:16:00,685 : INFO : test_validAddEmp : First_name,Middle_name,Last_name are sent to add value
+2024-06-16 15:16:01,058 : INFO : test_validAddEmp : Save button is clicked
+2024-06-16 15:16:01,090 : INFO : test_validAddEmp : Successfull added
+2024-06-16 15:16:21,781 : INFO : test_invalidemplist : Login is successfull
+2024-06-16 15:16:23,628 : INFO : test_invalidemplist : PIM button is clicked
+2024-06-16 15:16:24,894 : INFO : test_invalidemplist : Employee list button is clicked
+2024-06-16 15:16:25,322 : INFO : test_invalidemplist : Employee name is send
+2024-06-16 15:16:25,380 : INFO : test_invalidemplist : Employee Id is send
+2024-06-16 15:16:25,492 : INFO : test_invalidemplist : Search button is clicked
+2024-06-16 15:16:35,585 : INFO : test_validemplist : Login is successfull
+2024-06-16 15:16:37,134 : INFO : test_validemplist : PIM button is clicked
+2024-06-16 15:16:38,477 : INFO : test_validemplist : Employee list button is clicked
+2024-06-16 15:16:39,000 : INFO : test_validemplist : Employee name is send
+2024-06-16 15:16:39,067 : INFO : test_validemplist : Employee Id issend
+2024-06-16 15:16:39,180 : INFO : test_validemplist : Search button is clicked
+2024-06-16 15:16:39,570 : INFO : test_validemplist : Record are found
+2024-06-16 15:16:53,673 : INFO : test_deletelist : Login is successfull
+2024-06-16 15:16:53,673 : INFO : test_deletelist : Login is successfull
+2024-06-16 15:16:55,563 : INFO : test_deletelist : PIM button is clicked
+2024-06-16 15:16:55,563 : INFO : test_deletelist : PIM button is clicked
+2024-06-16 15:16:56,886 : INFO : test_deletelist : Delete icon is clicked
+2024-06-16 15:16:56,886 : INFO : test_deletelist : Delete icon is clicked
+2024-06-16 15:16:57,045 : INFO : test_deletelist : Yes button is clicked
+2024-06-16 15:16:57,045 : INFO : test_deletelist : Yes button is clicked
+2024-06-16 15:16:57,468 : INFO : test_deletelist : Successfully deleted
+2024-06-16 15:16:57,468 : INFO : test_deletelist : Successfully deleted
+2024-06-16 15:17:12,778 : INFO : test_editemp : Login is successfull
+2024-06-16 15:17:12,778 : INFO : test_editemp : Login is successfull
+2024-06-16 15:17:14,972 : INFO : test_editemp : PIM button is clicked
+2024-06-16 15:17:14,972 : INFO : test_editemp : PIM button is clicked
+2024-06-16 15:17:16,953 : INFO : test_editemp : Edit icon is clicked
+2024-06-16 15:17:16,953 : INFO : test_editemp : Edit icon is clicked
+2024-06-16 15:17:27,388 : INFO : test_assignleave : Login is successfull
+2024-06-16 15:17:45,807 : INFO : test_leavelist : Login is successfull
+2024-06-16 15:17:59,664 : INFO : test_timesheet : Login is successfull
+2024-06-16 15:18:14,006 : INFO : test_applyleave : Login is successfull
+2024-06-16 15:18:27,627 : INFO : test_myleave : Login is successfull
+2024-06-16 15:18:40,733 : INFO : test_mytimesheet : Login is successfull
+2024-06-16 15:18:50,541 : INFO : test_searchreport : Login is successfull
+2024-06-16 15:18:51,950 : INFO : test_searchreport : PIM button is clicked
+2024-06-16 15:18:53,068 : INFO : test_searchreport : report button is clicked
+2024-06-16 15:18:54,908 : INFO : test_searchreport : report needed to searched is given
+2024-06-16 15:18:54,990 : INFO : test_searchreport : Report is searched
+2024-06-16 15:18:55,402 : INFO : test_searchreport : Report is fetched successfully
+2024-06-16 15:22:38,438 : INFO : TestActions : Successfully logged into the application
+2024-06-16 15:22:41,820 : INFO : TestActions : Successfully clicked the clock icon in the dashboard page
+2024-06-16 15:22:42,359 : INFO : TestActions : Punch Out page is opened and verified successfully
+2024-06-16 15:22:53,794 : INFO : TestActions : Successfully logged into the application
+2024-06-16 15:22:55,995 : INFO : TestActions : Successfully clicked the Pending Self Review
+2024-06-16 15:22:56,430 : INFO : TestActions : Performance page is opened and verified successfully
+2024-06-16 15:23:14,562 : INFO : TestActions : Successfully logged into the application
+2024-06-16 15:23:16,782 : INFO : TestActions : Successfully clicked the Candidate to Interview
+2024-06-16 15:23:17,287 : INFO : TestActions : Recruitment page is opened and verified successfully
+2024-06-16 15:23:53,683 : INFO : test_candidate : Login is successfull
+2024-06-16 15:23:55,479 : INFO : test_candidate : Recruiment button is clicked
+2024-06-16 15:23:57,037 : INFO : test_candidate : Candidate buton is clicked
+2024-06-16 15:23:58,114 : INFO : test_candidate : Vacancy field is filled
+2024-06-16 15:23:58,557 : INFO : test_candidate : Status field is filled
+2024-06-16 15:23:58,627 : INFO : test_candidate : search button is clicked
+2024-06-16 15:23:59,251 : INFO : test_candidate : Successfull search
+2024-06-16 15:24:13,392 : INFO : test_delete : Login is successfull
+2024-06-16 15:24:15,650 : INFO : test_delete : Recruiment button is clicked
+2024-06-16 15:24:17,099 : INFO : test_delete : Candidate buton is clicked
+2024-06-16 15:24:18,203 : INFO : test_delete : Delete icon is clicked
+2024-06-16 15:24:18,376 : INFO : test_delete : Yes button is clicked
+2024-06-16 15:24:18,882 : INFO : test_delete : Successfully deleted
+2024-06-16 15:25:18,648 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-16 15:25:22,502 : INFO : TestConfigurations : Configurations is clicked from the drop down successfully
+2024-06-16 15:25:22,922 : INFO : TestConfigurations : Test Email is typed in the appropriate text box
+2024-06-16 15:25:23,242 : INFO : TestConfigurations : Male gender checkbox is clicked
+2024-06-16 15:25:23,555 : INFO : TestConfigurations : Sent Email is enabled
+2024-06-16 15:25:34,590 : INFO : TestConfigurations : Sent Email is typed in the appropriate text box
+2024-06-16 15:25:34,907 : INFO : TestConfigurations : Save button is clicked
+2024-06-16 15:30:06,514 : INFO : test_emp_leavelist : Login is successfull
+2024-06-16 15:30:19,122 : INFO : TestEmployment : Successfully logged into the application
+2024-06-16 15:30:25,377 : INFO : TestEmployment : Employment Status is clicked from the drop down successfully
+2024-06-16 15:30:26,868 : INFO : TestEmployment : Add button is clicked
+2024-06-16 15:30:27,301 : INFO : TestEmployment : Employment name is typed in the appropriate text box
+2024-06-16 15:30:27,627 : INFO : TestEmployment : Save button is clicked
+2024-06-16 15:31:27,917 : INFO : TestGeneral : Successfully logged into the application
+2024-06-16 15:31:32,731 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-16 15:31:32,788 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-16 15:31:47,071 : INFO : TestGeneral : Successfully logged into the application
+2024-06-16 15:31:52,090 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-16 15:31:52,249 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-16 15:31:52,672 : INFO : TestGeneral : Save button is clicked
+2024-06-16 15:31:53,038 : INFO : TestGeneral : Successfully Updated message is seen and verified
+2024-06-16 15:33:52,312 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:33:54,360 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:33:55,411 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:33:55,847 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:33:56,328 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:33:56,376 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:34:13,921 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:34:13,921 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:34:16,882 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:34:16,882 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:34:18,171 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:34:18,171 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:34:18,171 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:34:18,171 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:34:19,084 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:34:19,084 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:34:19,116 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:34:19,116 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:34:37,066 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:34:37,066 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:34:37,066 : INFO : test_InvalidvalidAddEmp : Login is successfull
+2024-06-16 15:34:38,798 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:34:38,798 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:34:38,798 : INFO : test_InvalidvalidAddEmp : PIM button is clicked
+2024-06-16 15:34:39,900 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:34:39,900 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:34:39,900 : INFO : test_InvalidvalidAddEmp : Add employee button is clicked
+2024-06-16 15:34:40,343 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:34:40,343 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:34:40,343 : INFO : test_InvalidvalidAddEmp : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-16 15:34:40,754 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:34:40,754 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:34:40,754 : INFO : test_InvalidvalidAddEmp : Save button is clicked
+2024-06-16 15:34:40,792 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:34:40,792 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:34:40,792 : INFO : test_InvalidvalidAddEmp : Unsuccesfull add
+2024-06-16 15:34:57,898 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:35:13,212 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:35:32,973 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:35:47,400 : INFO : TestJob : Successfully logged into the application
+2024-06-16 15:36:02,672 : INFO : TestLocation : Successfully logged into the application
+2024-06-16 15:36:06,993 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-16 15:36:08,249 : INFO : TestLocation : Location is filled and name,city is is typed in the appropriate text box
+2024-06-16 15:36:08,593 : INFO : TestLocation : Search button is clicked
+2024-06-16 15:36:09,187 : INFO : TestLocation : Search result is seen and verified successfully
+2024-06-16 15:36:24,398 : INFO : TestMembership : Successfully logged into the application
+2024-06-16 15:36:27,765 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-16 15:36:28,478 : INFO : TestMembership : Add button is clicked
+2024-06-16 15:36:28,952 : INFO : TestMembership : Acca is selected as the member role
+2024-06-16 15:36:29,398 : INFO : TestMembership : Company is selected as the subscription method
+2024-06-16 15:36:29,454 : INFO : TestMembership : Subscription amount is typed in the appropriate text box
+2024-06-16 15:36:29,931 : INFO : TestMembership : Appropriate currency is selected
+2024-06-16 15:36:29,984 : INFO : TestMembership : Commence date is typed in the appropriate text box
+2024-06-16 15:36:30,036 : INFO : TestMembership : Renewal date is typed in the appropriate text box
+2024-06-16 15:36:30,357 : INFO : TestMembership : Save button is clicked
+2024-06-16 15:36:30,821 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-16 15:36:48,691 : INFO : TestMembership : Successfully logged into the application
+2024-06-16 15:36:52,315 : INFO : TestMembership : Membership is clicked from the list successfully
+2024-06-16 15:36:53,102 : INFO : TestMembership : Add button is clicked
+2024-06-16 15:36:53,583 : INFO : TestMembership : Acca is selected as the member role
+2024-06-16 15:36:53,906 : INFO : TestMembership : Save button is clicked
+2024-06-16 15:36:54,347 : INFO : TestMembership : Successfully Saved message is seen and verified
+2024-06-16 15:37:14,456 : INFO : TestNation : Successfully logged into the application
+2024-06-16 15:37:18,237 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-16 15:37:19,742 : INFO : TestNation : Add button is clicked
+2024-06-16 15:37:20,225 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-16 15:37:20,542 : INFO : TestNation : Save button is clicked
+2024-06-16 15:37:31,654 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-16 15:37:47,183 : INFO : TestNation : Successfully logged into the application
+2024-06-16 15:37:50,497 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-16 15:37:51,676 : INFO : TestNation : Add button is clicked
+2024-06-16 15:37:52,123 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-16 15:37:52,463 : INFO : TestNation : Save button is clicked
+2024-06-16 15:37:53,446 : INFO : TestNation : Already exists message is seen and verified
+2024-06-16 15:38:08,947 : INFO : TestPay : Successfully logged into the application
+2024-06-16 15:38:13,893 : INFO : TestPay : Pay Grade is clicked from the drop down successfully
+2024-06-16 15:38:15,438 : INFO : TestPay : Add button is clicked
+2024-06-16 15:38:15,914 : INFO : TestPay : Pay Grade is typed in the appropriate text box
+2024-06-16 15:38:16,229 : INFO : TestPay : Save button is clicked
+2024-06-16 15:38:16,262 : INFO : TestPay : Successfully Saved message is seen and verified
+2024-06-16 15:39:56,151 : INFO : TestQualification : Successfully logged into the application
+2024-06-16 15:39:59,305 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-16 15:40:00,264 : INFO : TestQualification : Add button is clicked
+2024-06-16 15:40:00,310 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-16 15:40:00,368 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-16 15:40:00,421 : INFO : TestQualification : From date is typed in the appropriate text box
+2024-06-16 15:40:00,475 : INFO : TestQualification : To Date is typed in the appropriate text box
+2024-06-16 15:40:00,535 : INFO : TestQualification : Comment is typed in the appropriate text box
+2024-06-16 15:40:00,864 : INFO : TestQualification : Save button is clicked
+2024-06-16 15:40:01,467 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-16 15:40:17,343 : INFO : TestQualification : Successfully logged into the application
+2024-06-16 15:40:21,095 : INFO : TestQualification : Qualification is clicked from the list successfully
+2024-06-16 15:40:21,877 : INFO : TestQualification : Add button is clicked
+2024-06-16 15:40:21,925 : INFO : TestQualification : Company name is typed in the Company name text box
+2024-06-16 15:40:21,965 : INFO : TestQualification : Job Title is typed in the appropriate text box
+2024-06-16 15:40:22,319 : INFO : TestQualification : Save button is clicked
+2024-06-16 15:40:22,976 : INFO : TestQualification : Successfully Saved message is seen and verified
+2024-06-16 15:40:38,940 : INFO : TestUser : Successfully logged into the application
+2024-06-16 15:40:43,094 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 15:40:43,640 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 15:40:44,111 : INFO : TestUser : ess is selected as the user role
+2024-06-16 15:40:45,455 : INFO : TestUser : Employee name is typed in the Employee name text box
+2024-06-16 15:40:45,885 : INFO : TestUser : Enable status is selected
+2024-06-16 15:40:46,198 : INFO : TestUser : Search Button is clicked
+2024-06-16 15:40:46,823 : INFO : TestUser : Search result is verified successfully
+2024-06-16 15:41:01,371 : INFO : TestUser : Successfully logged into the application
+2024-06-16 15:41:05,171 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 15:41:05,863 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 15:41:06,339 : INFO : TestUser : Enable status is selected
+2024-06-16 15:41:06,657 : INFO : TestUser : Search Button is clicked
+2024-06-16 15:41:07,196 : INFO : TestUser : Search result is verified successfully
+2024-06-16 15:41:20,516 : INFO : TestUser : Successfully logged into the application
+2024-06-16 15:41:24,697 : INFO : TestUser : Users is clicked from the drop down successfully
+2024-06-16 15:41:25,245 : INFO : TestUser : Username is typed in the username text box
+2024-06-16 15:41:28,616 : INFO : TestUser : Admin is selected as the user role
+2024-06-16 15:41:28,949 : INFO : TestUser : Search Button is clicked
+2024-06-16 15:41:29,531 : INFO : TestUser : Search result is verified successfully
+2024-06-16 15:41:42,131 : INFO : test_vacancy : Login is successfull
+2024-06-16 15:41:43,933 : INFO : test_vacancy : Recruiment button is clicked
+2024-06-16 15:41:45,647 : INFO : test_vacancy : Vacancies button is clicked
+2024-06-16 15:41:46,662 : INFO : test_vacancy : vacancy field is filled
+2024-06-16 15:41:47,130 : INFO : test_vacancy : Status field is filled
+2024-06-16 15:41:47,223 : INFO : test_vacancy : Search button is clicked
+2024-06-16 15:41:47,716 : INFO : test_vacancy : Successfull search
+2024-06-16 15:42:02,645 : INFO : test_deletelist : Login is successfull
+2024-06-16 15:42:04,613 : INFO : test_deletelist : Recruiment button is clicked
+2024-06-16 15:42:06,172 : INFO : test_deletelist : Vacancies button is clicked
+2024-06-16 15:42:07,361 : INFO : test_deletelist : Delete icon is clicked
+2024-06-16 15:42:07,497 : INFO : test_deletelist : Yes button is clicked
+2024-06-16 15:42:08,205 : INFO : test_deletelist : Successfully deleted
+2024-06-16 15:42:23,374 : INFO : test_editemp : Login is successfull
+2024-06-16 15:42:25,406 : INFO : test_editemp : Recruiment button is clicked
+2024-06-16 15:42:26,679 : INFO : test_editemp : Vacancies button is clicked
+2024-06-16 15:42:28,185 : INFO : test_editemp : Edit icon is clicked
+2024-06-16 15:42:28,579 : INFO : test_editemp : Edit is successfully done
+2024-06-16 15:42:43,677 : INFO : test_validAddEmp : Login is successful
+2024-06-16 15:42:45,576 : INFO : test_validAddEmp : PIM button is clicked
+2024-06-16 15:42:46,901 : INFO : test_validAddEmp : Add Employee button is clicked
+2024-06-16 15:42:47,479 : INFO : test_validAddEmp : First_name,Middle_name,Last_name are sent to add value
+2024-06-16 15:42:47,770 : INFO : test_validAddEmp : Save button is clicked
+2024-06-16 15:42:47,810 : INFO : test_validAddEmp : Successfull added
+2024-06-16 15:43:15,225 : INFO : test_invalidemplist : Login is successfull
+2024-06-16 15:43:17,256 : INFO : test_invalidemplist : PIM button is clicked
+2024-06-16 15:43:18,430 : INFO : test_invalidemplist : Employee list button is clicked
+2024-06-16 15:43:18,859 : INFO : test_invalidemplist : Employee name is send
+2024-06-16 15:43:18,914 : INFO : test_invalidemplist : Employee Id is send
+2024-06-16 15:43:19,019 : INFO : test_invalidemplist : Search button is clicked
+2024-06-16 15:43:19,655 : INFO : test_invalidemplist : No Records Found is displayed
+2024-06-16 15:43:37,115 : INFO : test_validemplist : Login is successfull
+2024-06-16 15:43:38,921 : INFO : test_validemplist : PIM button is clicked
+2024-06-16 15:43:40,458 : INFO : test_validemplist : Employee list button is clicked
+2024-06-16 15:43:40,887 : INFO : test_validemplist : Employee name is send
+2024-06-16 15:43:40,945 : INFO : test_validemplist : Employee Id issend
+2024-06-16 15:43:41,037 : INFO : test_validemplist : Search button is clicked
+2024-06-16 15:43:41,455 : INFO : test_validemplist : Record are found
+2024-06-16 15:43:59,837 : INFO : test_deletelist : Login is successfull
+2024-06-16 15:43:59,837 : INFO : test_deletelist : Login is successfull
+2024-06-16 15:44:01,752 : INFO : test_deletelist : PIM button is clicked
+2024-06-16 15:44:01,752 : INFO : test_deletelist : PIM button is clicked
+2024-06-16 15:44:02,811 : INFO : test_deletelist : Delete icon is clicked
+2024-06-16 15:44:02,811 : INFO : test_deletelist : Delete icon is clicked
+2024-06-16 15:44:02,962 : INFO : test_deletelist : Yes button is clicked
+2024-06-16 15:44:02,962 : INFO : test_deletelist : Yes button is clicked
+2024-06-16 15:44:03,469 : INFO : test_deletelist : Successfully deleted
+2024-06-16 15:44:03,469 : INFO : test_deletelist : Successfully deleted
+2024-06-16 15:44:21,569 : INFO : test_editemp : Login is successfull
+2024-06-16 15:44:21,569 : INFO : test_editemp : Login is successfull
+2024-06-16 15:44:24,501 : INFO : test_editemp : PIM button is clicked
+2024-06-16 15:44:24,501 : INFO : test_editemp : PIM button is clicked
+2024-06-16 15:44:28,039 : INFO : test_editemp : Edit icon is clicked
+2024-06-16 15:44:28,039 : INFO : test_editemp : Edit icon is clicked
+2024-06-16 15:44:51,566 : INFO : test_assignleave : Login is successfull
+2024-06-16 15:45:14,860 : INFO : test_leavelist : Login is successfull
+2024-06-16 15:45:32,329 : INFO : test_timesheet : Login is successfull
+2024-06-16 15:45:50,609 : INFO : test_applyleave : Login is successfull
+2024-06-16 15:46:06,685 : INFO : test_myleave : Login is successfull
+2024-06-16 15:46:22,806 : INFO : test_mytimesheet : Login is successfull
+2024-06-16 15:46:35,616 : INFO : test_searchreport : Login is successfull
+2024-06-16 15:46:37,207 : INFO : test_searchreport : PIM button is clicked
+2024-06-16 15:46:38,509 : INFO : test_searchreport : report button is clicked
+2024-06-16 15:46:40,230 : INFO : test_searchreport : report needed to searched is given
+2024-06-16 15:46:40,327 : INFO : test_searchreport : Report is searched
+2024-06-16 15:46:40,734 : INFO : test_searchreport : Report is fetched successfully
+2024-06-19 11:17:39,277 : INFO : TestValidAddEmployee : Login successful and verified
+2024-06-19 11:17:39,361 : INFO : TestValidAddEmployee : Login is successful
+2024-06-19 11:18:00,052 : INFO : TestValidAddEmployee : PIM button is clicked
+2024-06-19 11:18:16,101 : INFO : TestValidAddEmployee : Add Employee button is clicked
+2024-06-19 11:18:16,978 : INFO : TestValidAddEmployee : First_name,Middle_name,Last_name are sent to add value
+2024-06-19 11:19:33,223 : INFO : TestValidAddEmployee : Login successful and verified
+2024-06-19 11:19:33,223 : INFO : TestValidAddEmployee : Login is successful
+2024-06-19 11:19:36,518 : INFO : TestValidAddEmployee : PIM button is clicked
+2024-06-19 11:19:39,996 : INFO : TestValidAddEmployee : Add Employee button is clicked
+2024-06-19 11:19:41,098 : INFO : TestValidAddEmployee : First_name,Middle_name,Last_name are sent to add value
+2024-06-19 11:19:41,543 : INFO : TestValidAddEmployee : Save button is clicked
+2024-06-19 11:19:41,568 : INFO : TestValidAddEmployee : Successfull added
+2024-06-19 12:18:17,960 : INFO : TestValidAddEmployee : Login successful and verified
+2024-06-19 12:18:18,035 : INFO : TestValidAddEmployee : Login is successfull
+2024-06-19 12:18:19,759 : INFO : TestValidAddEmployee : PIM button is clicked
+2024-06-19 12:18:21,132 : INFO : TestValidAddEmployee : Add employee button is clicked
+2024-06-19 12:18:21,540 : INFO : TestValidAddEmployee : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-19 12:18:21,983 : INFO : TestValidAddEmployee : Save button is clicked
+2024-06-19 12:18:22,010 : INFO : TestValidAddEmployee : Unsuccesfull add
+2024-06-19 12:18:36,415 : INFO : TestValidAddEmployee : Login successful and verified
+2024-06-19 12:18:36,415 : INFO : TestValidAddEmployee : Login is successfull
+2024-06-19 12:18:38,021 : INFO : TestValidAddEmployee : PIM button is clicked
+2024-06-19 12:18:39,356 : INFO : TestValidAddEmployee : Add employee button is clicked
+2024-06-19 12:18:39,356 : INFO : TestValidAddEmployee : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-19 12:18:40,328 : INFO : TestValidAddEmployee : Save button is clicked
+2024-06-19 12:18:40,349 : INFO : TestValidAddEmployee : Unsuccesfull add
+2024-06-19 12:18:56,704 : INFO : TestValidAddEmployee : Login successful and verified
+2024-06-19 12:18:56,704 : INFO : TestValidAddEmployee : Login is successfull
+2024-06-19 12:18:58,260 : INFO : TestValidAddEmployee : PIM button is clicked
+2024-06-19 12:18:59,883 : INFO : TestValidAddEmployee : Add employee button is clicked
+2024-06-19 12:19:00,480 : INFO : TestValidAddEmployee : First_name,Middle_name,Last_name,Emp_id is sent to add the employee
+2024-06-19 12:19:00,892 : INFO : TestValidAddEmployee : Save button is clicked
+2024-06-19 12:19:00,915 : INFO : TestValidAddEmployee : Unsuccesfull add
+2024-06-19 12:19:38,763 : INFO : TestReport : Login successful and verified
+2024-06-19 12:19:38,763 : INFO : TestReport : Login is successfull
+2024-06-19 12:19:40,059 : INFO : TestReport : PIM button is clicked
+2024-06-19 12:19:41,766 : INFO : TestReport : report button is clicked
+2024-06-19 12:24:58,457 : INFO : TestReport : Login successful and verified
+2024-06-19 12:24:58,457 : INFO : TestReport : Login is successfull
+2024-06-19 12:26:26,614 : INFO : TestReport : Login successful and verified
+2024-06-19 12:26:26,614 : INFO : TestReport : Login is successfull
+2024-06-19 12:30:28,782 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:30:28,782 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:30:51,276 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:30:51,276 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:30:52,869 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:30:54,127 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:30:54,505 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:30:54,551 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 12:30:54,614 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:31:05,211 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:31:05,211 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:31:07,221 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:31:08,712 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 12:31:08,798 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 12:31:09,282 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 12:31:23,413 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:31:23,413 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:31:25,012 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:31:26,807 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 12:45:46,233 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:45:46,316 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:45:47,741 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:45:49,033 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:45:49,520 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:45:49,575 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 12:45:49,637 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:46:01,298 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:46:01,298 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:46:03,275 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:46:04,484 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:46:04,930 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:46:04,977 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 12:46:05,044 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:46:05,521 : INFO : TestEmployeeSearch : Record are found
+2024-06-19 12:46:19,652 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:46:19,652 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:46:21,297 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:46:22,746 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 12:46:22,887 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 12:46:23,337 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 12:46:35,376 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:46:35,376 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:46:36,941 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:46:38,667 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 12:52:29,367 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:52:29,367 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:52:31,093 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:52:32,574 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:52:33,009 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:52:33,057 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 12:52:33,136 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:52:33,813 : INFO : TestEmployeeSearch : No Records Found is displayed
+2024-06-19 12:52:48,384 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:52:48,384 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:52:50,585 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:52:52,549 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:52:53,039 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:52:53,105 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 12:52:53,182 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:52:53,813 : INFO : TestEmployeeSearch : Record are found
+2024-06-19 12:53:09,455 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:53:09,455 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:53:11,420 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:53:12,938 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 12:53:36,154 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:53:36,154 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:53:37,772 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:53:39,613 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 12:54:17,783 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:54:17,783 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:54:19,410 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:54:20,847 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:54:21,368 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:54:21,418 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 12:54:21,510 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:54:34,672 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:54:34,672 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:54:36,159 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:54:37,345 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 12:54:37,783 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 12:54:37,833 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 12:54:37,901 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 12:54:48,949 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:54:48,949 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:54:50,530 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:54:51,773 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 12:55:22,931 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 12:55:22,931 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 12:55:24,683 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 12:55:26,406 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 12:55:26,862 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:05:03,066 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:05:03,066 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:05:04,209 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:05:05,397 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:05:05,847 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:05:05,890 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 13:05:05,963 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:05:17,178 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:05:17,178 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:05:18,951 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:05:20,127 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:05:20,586 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:05:20,618 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 13:05:20,676 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:05:21,005 : INFO : TestEmployeeSearch : Record are found
+2024-06-19 13:05:35,258 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:05:35,258 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:05:36,604 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:06:07,782 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:06:07,782 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:06:09,397 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:06:10,793 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 13:06:11,327 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:11:11,811 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:11:11,819 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:11:13,495 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:11:14,985 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:11:15,472 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:11:15,515 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 13:11:15,613 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:11:26,161 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:11:26,167 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:11:27,767 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:11:28,996 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:11:29,384 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:11:29,438 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 13:11:29,529 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:11:29,886 : INFO : TestEmployeeSearch : Record are found
+2024-06-19 13:11:45,744 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:11:45,744 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:11:47,365 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:12:04,037 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 13:12:26,300 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:12:26,300 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:12:27,993 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:12:29,600 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 13:12:30,059 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:15:49,431 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:15:49,431 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:15:50,932 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:15:52,271 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:15:52,718 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:15:52,771 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 13:15:52,876 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:16:04,024 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:16:04,024 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:16:05,444 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:16:06,766 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:16:07,271 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:16:07,325 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 13:16:07,425 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:16:07,943 : INFO : TestEmployeeSearch : Record are found
+2024-06-19 13:16:20,112 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:16:20,112 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:16:21,286 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:16:22,590 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 13:16:22,700 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 13:16:23,123 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 13:16:37,548 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:16:37,548 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:16:39,136 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:16:40,757 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 13:16:41,224 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:22:54,945 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:22:54,964 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:22:56,497 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:22:57,721 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:22:58,220 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:22:58,269 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 13:22:58,364 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:23:09,569 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:23:09,569 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:23:11,457 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:23:12,471 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 13:23:12,573 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 13:23:13,465 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 13:23:28,347 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:23:28,347 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:23:29,827 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:23:31,585 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 13:23:32,265 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:24:29,402 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:24:29,402 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:24:31,319 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:24:32,718 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:24:43,712 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:24:43,712 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:24:45,562 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:24:46,817 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:24:57,806 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:24:57,806 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:24:59,091 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:25:00,558 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:25:00,978 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:25:01,033 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 13:25:01,127 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:25:15,492 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:25:15,492 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:25:17,219 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:25:18,468 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 13:25:18,572 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 13:25:19,004 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 13:25:35,558 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:25:35,558 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:25:38,149 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:25:40,010 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 13:25:40,467 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:27:23,019 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:27:23,019 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:27:23,469 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:27:49,797 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:27:49,797 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:27:51,592 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:27:52,631 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 13:27:53,094 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 13:27:53,143 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 13:27:53,243 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 13:28:14,370 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:28:14,370 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:28:15,751 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:28:16,827 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 13:28:17,448 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 13:28:18,441 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 13:28:50,917 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 13:28:50,917 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 13:28:52,200 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 13:28:53,813 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 13:28:54,317 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 13:31:53,611 : INFO : TestReport : Login successful and verified
+2024-06-19 13:31:53,611 : INFO : TestReport : Login is successfull
+2024-06-19 13:31:54,824 : INFO : TestReport : PIM button is clicked
+2024-06-19 13:31:56,012 : INFO : TestReport : report button is clicked
+2024-06-19 13:31:58,080 : INFO : TestReport : report needed to searched is given
+2024-06-19 13:31:58,199 : INFO : TestReport : Report is searched
+2024-06-19 13:38:53,215 : INFO : TestReport : Login successful and verified
+2024-06-19 13:38:53,216 : INFO : TestReport : Login is successfull
+2024-06-19 13:38:54,817 : INFO : TestReport : PIM button is clicked
+2024-06-19 13:38:56,130 : INFO : TestReport : report button is clicked
+2024-06-19 13:38:57,845 : INFO : TestReport : report needed to searched is given
+2024-06-19 13:38:57,935 : INFO : TestReport : Report is searched
+2024-06-19 14:12:16,865 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:12:16,879 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:12:19,157 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:12:20,438 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 14:12:21,293 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 14:12:21,332 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 14:12:21,443 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 14:13:25,323 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:13:25,323 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:13:27,188 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:13:28,598 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 14:13:29,103 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 14:13:29,152 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 14:13:29,250 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 14:13:40,935 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:13:40,935 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:13:42,388 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:13:43,553 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 14:14:14,111 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:14:14,111 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:14:15,638 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:14:17,544 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 14:14:18,052 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 14:15:03,980 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:15:03,980 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:15:05,825 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:15:07,312 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 14:15:07,846 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 14:15:07,895 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 14:15:07,993 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 14:15:08,747 : INFO : TestEmployeeSearch : No Records Found is displayed
+2024-06-19 14:15:22,415 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:15:22,415 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:15:24,198 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:15:25,655 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 14:15:26,233 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 14:15:26,305 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 14:15:26,393 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 14:15:38,900 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:15:38,900 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:15:40,422 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:15:41,651 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 14:16:05,572 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 14:16:05,572 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 14:16:07,105 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 14:16:09,107 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 14:16:09,621 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 16:12:06,781 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:12:06,805 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:12:08,367 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:12:10,285 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:12:10,775 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 16:12:10,871 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:12:46,448 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:12:46,448 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:12:48,345 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:12:49,821 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 16:12:49,973 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 16:12:50,965 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 16:13:06,806 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:13:06,806 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:13:08,585 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:13:10,530 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 16:13:11,085 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 16:22:46,068 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:22:46,151 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:22:48,172 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:22:50,319 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:22:50,828 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 16:22:50,891 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 16:22:50,981 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:23:02,751 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:23:02,751 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:23:04,326 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:23:05,780 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 16:23:05,893 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 16:23:06,334 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 16:23:20,827 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:23:20,827 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:23:22,665 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:23:25,219 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 16:23:25,680 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 16:23:54,525 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:23:54,525 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:23:55,851 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:23:57,429 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:23:57,825 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 16:23:57,915 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:23:58,627 : INFO : TestEmployeeSearch : No Records Found is displayed
+2024-06-19 16:24:11,099 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:24:11,099 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:24:12,481 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:24:13,903 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:24:14,342 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 16:24:14,403 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 16:24:14,495 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:24:27,119 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:24:27,119 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:24:28,319 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:24:29,674 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 16:24:29,804 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 16:24:30,461 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 16:24:46,472 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:24:46,472 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:24:47,983 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:24:49,629 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 16:24:50,087 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 16:31:14,699 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:31:14,700 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:31:16,120 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:31:17,439 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:31:17,897 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 16:31:17,990 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:31:19,041 : INFO : TestEmployeeSearch : No Records Found is displayed
+2024-06-19 16:31:35,552 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:31:35,552 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:31:37,072 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:31:38,288 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:31:38,753 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 16:31:38,821 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 16:31:38,915 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:31:51,691 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:31:51,691 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:31:53,417 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:31:54,750 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 16:31:55,363 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 16:31:56,323 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 16:32:11,114 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:32:11,114 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:32:12,601 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:32:14,608 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 16:32:15,053 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 16:33:44,910 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:33:44,910 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:33:46,399 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:33:47,741 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:33:48,154 : INFO : TestEmployeeSearch : Employee Id is send
+2024-06-19 16:33:48,249 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:33:49,010 : INFO : TestEmployeeSearch : No Records Found is displayed
+2024-06-19 16:34:01,875 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:34:01,875 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:34:03,225 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:34:04,515 : INFO : TestEmployeeSearch : Employee list button is clicked
+2024-06-19 16:34:04,944 : INFO : TestEmployeeSearch : Employee name is send
+2024-06-19 16:34:04,998 : INFO : TestEmployeeSearch : Employee Id issend
+2024-06-19 16:34:05,090 : INFO : TestEmployeeSearch : Search button is clicked
+2024-06-19 16:34:05,618 : INFO : TestEmployeeSearch : Record are found
+2024-06-19 16:34:17,632 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:34:17,632 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:34:19,026 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:34:20,117 : INFO : TestEmployeeSearch : Delete icon is clicked
+2024-06-19 16:34:20,231 : INFO : TestEmployeeSearch : Yes button is clicked
+2024-06-19 16:34:21,353 : INFO : TestEmployeeSearch : Successfully deleted
+2024-06-19 16:34:35,614 : INFO : TestEmployeeSearch : Login successful and verified
+2024-06-19 16:34:35,614 : INFO : TestEmployeeSearch : Login is successfull
+2024-06-19 16:34:37,385 : INFO : TestEmployeeSearch : PIM button is clicked
+2024-06-19 16:34:39,204 : INFO : TestEmployeeSearch : Edit icon is clicked
+2024-06-19 16:34:39,805 : INFO : TestEmployeeSearch : Edit is done successfully
+2024-06-19 16:35:10,962 : INFO : TestReport : Login successful and verified
+2024-06-19 16:35:10,962 : INFO : TestReport : Login is successfull
+2024-06-19 16:35:12,280 : INFO : TestReport : PIM button is clicked
+2024-06-19 16:35:13,625 : INFO : TestReport : report button is clicked
+2024-06-19 16:35:15,402 : INFO : TestReport : report needed to searched is given
+2024-06-19 16:35:15,496 : INFO : TestReport : Report is searched
+2024-06-19 16:35:16,072 : INFO : TestReport : Report is fetched successfully
+2024-06-20 21:32:28,800 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:32:41,653 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:33:48,983 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:34:06,848 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:34:26,764 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:34:37,858 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-20 21:34:48,949 : INFO : TestNation : Add button is clicked
+2024-06-20 21:34:48,989 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-20 21:34:59,455 : INFO : TestNation : Save button is clicked
+2024-06-20 21:34:59,476 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-20 21:35:10,765 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:36:20,068 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:36:31,230 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-20 21:36:42,367 : INFO : TestNation : Add button is clicked
+2024-06-20 21:36:42,413 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-20 21:36:53,521 : INFO : TestNation : Save button is clicked
+2024-06-20 21:37:04,603 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-20 21:37:49,369 : INFO : TestNation : Successfully logged into the application
+2024-06-20 21:37:58,566 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-20 21:38:00,783 : INFO : TestNation : Add button is clicked
+2024-06-20 21:38:01,263 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-20 21:38:01,619 : INFO : TestNation : Save button is clicked
+2024-06-20 21:38:02,689 : INFO : TestNation : Already exists message is seen and verified
+2024-06-20 21:39:34,195 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-20 21:41:19,688 : INFO : TestConfigurations : Successfully logged into the application
+2024-06-20 21:41:23,805 : INFO : TestConfigurations : Configurations is clicked from the drop down successfully
+2024-06-20 21:41:24,397 : INFO : TestConfigurations : Test Email is typed in the appropriate text box
+2024-06-20 21:41:24,834 : INFO : TestConfigurations : Male gender checkbox is clicked
+2024-06-20 21:41:25,182 : INFO : TestConfigurations : Sent Email is enabled
+2024-06-20 21:41:25,332 : INFO : TestConfigurations : Sent Email is typed in the appropriate text box
+2024-06-20 21:41:25,683 : INFO : TestConfigurations : Save button is clicked
+2024-06-20 21:41:26,954 : INFO : TestConfigurations : Email sent message is seen and verified
+2024-06-20 21:47:13,022 : INFO : TestJob : Successfully logged into the application
+2024-06-20 21:47:24,226 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 21:47:35,327 : INFO : TestJob : Add button is clicked
+2024-06-20 21:47:35,359 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 21:47:46,507 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 21:47:57,601 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 21:48:08,713 : INFO : TestJob : Save button is clicked
+2024-06-20 21:48:30,635 : INFO : TestJob : Successfully logged into the application
+2024-06-20 21:48:41,736 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 21:48:52,824 : INFO : TestJob : Add button is clicked
+2024-06-20 21:48:52,864 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 21:49:03,908 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 21:49:13,574 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 21:49:13,587 : INFO : TestJob : Cancel button is clicked
+2024-06-20 21:49:19,501 : INFO : TestJob : Successfully logged into the application
+2024-06-20 21:49:58,495 : INFO : TestJob : Successfully logged into the application
+2024-06-20 21:53:30,608 : INFO : TestGeneral : Successfully logged into the application
+2024-06-20 21:53:38,510 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-20 21:53:38,574 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-20 21:53:53,279 : INFO : TestGeneral : Successfully logged into the application
+2024-06-20 21:53:59,855 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-20 21:54:00,001 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-20 21:54:00,417 : INFO : TestGeneral : Save button is clicked
+2024-06-20 21:55:52,292 : INFO : TestGeneral : Successfully logged into the application
+2024-06-20 21:55:57,781 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-20 21:55:57,838 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-20 21:56:35,725 : INFO : TestGeneral : Successfully logged into the application
+2024-06-20 21:56:41,261 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-20 21:56:41,443 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-20 21:56:41,845 : INFO : TestGeneral : Save button is clicked
+2024-06-20 21:59:10,230 : INFO : TestLocation : Successfully logged into the application
+2024-06-20 21:59:21,367 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-20 22:00:16,955 : INFO : TestLocation : Successfully logged into the application
+2024-06-20 22:00:28,036 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-20 22:04:13,449 : INFO : TestNation : Successfully logged into the application
+2024-06-20 22:04:24,565 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-20 22:04:35,636 : INFO : TestNation : Add button is clicked
+2024-06-20 22:04:35,675 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-20 22:04:46,816 : INFO : TestNation : Save button is clicked
+2024-06-20 22:04:57,887 : INFO : TestNation : Successfully Saved message is seen and verified
+2024-06-20 22:05:12,595 : INFO : TestNation : Successfully logged into the application
+2024-06-20 22:05:16,240 : INFO : TestNation : Nationalities is clicked from the drop down successfully
+2024-06-20 22:05:17,596 : INFO : TestNation : Add button is clicked
+2024-06-20 22:05:18,144 : INFO : TestNation : Nation name is typed in the appropriate text box
+2024-06-20 22:05:18,476 : INFO : TestNation : Save button is clicked
+2024-06-20 22:05:19,411 : INFO : TestNation : Already exists message is seen and verified
+2024-06-20 22:07:00,243 : INFO : TestLocation : Successfully logged into the application
+2024-06-20 22:07:11,363 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-20 22:09:34,846 : INFO : TestLocation : Successfully logged into the application
+2024-06-20 22:09:40,158 : INFO : TestLocation : Location is clicked from the drop down successfully
+2024-06-20 22:09:41,538 : INFO : TestLocation : Location is filled and name,city is is typed in the appropriate text box
+2024-06-20 22:09:41,944 : INFO : TestLocation : Search button is clicked
+2024-06-20 22:09:42,443 : INFO : TestLocation : Search result is seen and verified successfully
+2024-06-20 22:11:52,408 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:11:56,735 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:11:58,113 : INFO : TestJob : Add button is clicked
+2024-06-20 22:11:58,656 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:11:58,692 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 22:11:58,739 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 22:11:59,144 : INFO : TestJob : Save button is clicked
+2024-06-20 22:12:00,642 : INFO : TestJob : Successfully Saved message is seen and verified
+2024-06-20 22:12:15,949 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:12:21,185 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:12:22,926 : INFO : TestJob : Add button is clicked
+2024-06-20 22:12:23,414 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:12:23,447 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 22:12:23,473 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 22:12:24,225 : INFO : TestJob : Cancel button is clicked
+2024-06-20 22:12:25,071 : INFO : TestJob : Previous Page is loaded and verified
+2024-06-20 22:12:36,126 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:12:47,288 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:12:58,372 : INFO : TestJob : Add button is clicked
+2024-06-20 22:12:58,416 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:13:09,904 : INFO : TestJob : Save button is clicked
+2024-06-20 22:13:32,398 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:13:43,523 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:14:05,942 : INFO : TestJob : Delete button is clicked
+2024-06-20 22:14:17,006 : INFO : TestJob : Successfully Deleted message is seen and verified
+2024-06-20 22:15:24,720 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:15:31,949 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:15:33,202 : INFO : TestJob : Add button is clicked
+2024-06-20 22:15:33,659 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:15:33,700 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 22:15:33,781 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 22:15:34,772 : INFO : TestJob : Cancel button is clicked
+2024-06-20 22:15:35,755 : INFO : TestJob : Previous Page is loaded and verified
+2024-06-20 22:15:53,463 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:16:14,776 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:16:15,982 : INFO : TestJob : Add button is clicked
+2024-06-20 22:16:16,425 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:16:16,871 : INFO : TestJob : Save button is clicked
+2024-06-20 22:16:18,160 : INFO : TestJob : Successfully Saved message is seen and verified
+2024-06-20 22:16:32,741 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:17:08,638 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:17:15,091 : INFO : TestJob : Delete button is clicked
+2024-06-20 22:17:15,541 : INFO : TestJob : Successfully Deleted message is seen and verified
+2024-06-20 22:17:44,723 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:17:55,832 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:18:06,944 : INFO : TestJob : Add button is clicked
+2024-06-20 22:18:06,981 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:18:18,136 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 22:18:29,223 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 22:18:40,397 : INFO : TestJob : Save button is clicked
+2024-06-20 22:19:06,516 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:19:17,657 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:19:28,762 : INFO : TestJob : Add button is clicked
+2024-06-20 22:19:28,825 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:19:39,948 : INFO : TestJob : Job description is typed in the appropriate text box
+2024-06-20 22:19:51,502 : INFO : TestJob : Job note is typed in the appropriate text box
+2024-06-20 22:20:02,623 : INFO : TestJob : Cancel button is clicked
+2024-06-20 22:20:27,257 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:20:31,647 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:20:32,872 : INFO : TestJob : Add button is clicked
+2024-06-20 22:20:33,317 : INFO : TestJob : Job title is typed in the appropriate text box
+2024-06-20 22:20:33,705 : INFO : TestJob : Save button is clicked
+2024-06-20 22:20:55,182 : INFO : TestJob : Successfully logged into the application
+2024-06-20 22:21:06,399 : INFO : TestJob : Jobs is clicked from the drop down successfully
+2024-06-20 22:21:28,587 : INFO : TestJob : Delete button is clicked
+2024-06-20 22:21:39,646 : INFO : TestJob : Successfully Deleted message is seen and verified
+2024-06-20 22:22:16,938 : INFO : TestGeneral : Successfully logged into the application
+2024-06-20 22:22:28,069 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-20 22:22:28,110 : INFO : TestGeneral : All the text box is enabled and verified
+2024-06-20 22:22:42,507 : INFO : TestGeneral : Successfully logged into the application
+2024-06-20 22:22:51,079 : INFO : TestGeneral : General Information is clicked from the drop down successfully
+2024-06-20 22:22:51,244 : INFO : TestGeneral : Organization Name is typed in the appropriate text box
+2024-06-20 22:22:51,615 : INFO : TestGeneral : Save button is clicked
+2024-06-20 22:22:52,022 : INFO : TestGeneral : Successfully Updated message is seen and verified
+2024-06-20 23:48:53,466 : INFO : TestVacancy : Login successful and verified
+2024-06-20 23:48:53,475 : INFO : TestVacancy : Login is successfull
+2024-06-20 23:48:55,049 : INFO : TestVacancy : Recruiment button is clicked
+2024-06-20 23:48:56,305 : INFO : TestVacancy : Vacancies button is clicked
+2024-06-20 23:48:57,523 : INFO : TestVacancy : vacancy field is filled
+2024-06-20 23:48:57,869 : INFO : TestVacancy : Status field is filled
+2024-06-20 23:48:57,918 : INFO : TestVacancy : Search button is clicked
+2024-06-20 23:48:58,396 : INFO : TestVacancy : Successfull search
+2024-06-20 23:49:14,157 : INFO : TestVacancy : Login successful and verified
+2024-06-20 23:49:14,157 : INFO : TestVacancy : Login is successfull
+2024-06-20 23:49:15,885 : INFO : TestVacancy : Recruiment button is clicked
+2024-06-20 23:49:17,533 : INFO : TestVacancy : Vacancies button is clicked
+2024-06-20 23:49:18,608 : INFO : TestVacancy : Delete icon is clicked
+2024-06-20 23:49:19,208 : INFO : TestVacancy : Yes button is clicked
+2024-06-20 23:49:19,676 : INFO : TestVacancy : Successfully deleted
+2024-06-20 23:49:34,997 : INFO : TestVacancy : Login successful and verified
+2024-06-20 23:49:34,997 : INFO : TestVacancy : Login is successfull
+2024-06-20 23:49:36,741 : INFO : TestVacancy : Recruiment button is clicked
+2024-06-20 23:49:38,189 : INFO : TestVacancy : Vacancies button is clicked
+2024-06-20 23:49:39,703 : INFO : TestVacancy : Edit icon is clicked
+2024-06-20 23:49:40,219 : INFO : TestVacancy : Edit is successfully done
+2024-06-21 00:01:57,124 : INFO : TestChangePassword : Logged in successfully
+2024-06-21 00:02:02,886 : INFO : TestChangePassword : Password change verified successfully
+2024-06-21 00:02:17,298 : INFO : TestChangePassword : Logged in successfully
+2024-06-21 00:02:22,463 : INFO : TestChangePassword : Invalid password alert message verified successfully
+2024-06-21 00:02:35,213 : INFO : TestChangePassword : Starting test_invalid_confirm_password
+2024-06-21 00:02:36,871 : INFO : TestChangePassword : Logged in successfully
+2024-06-21 00:02:39,987 : INFO : TestChangePassword : Invalid confirm password alert message verified successfully

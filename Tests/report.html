@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report.html</h1>
+    <p>Report generated on 16-Jun-2024 at 15:46:43 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">66 tests took 00:24:08.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">14 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">52 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.2&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.22631-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.2.0&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;allure-pytest&#34;: &#34;2.13.5&#34;, &#34;ast-transformer&#34;: &#34;1.0.3&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;soft-assertions&#34;: &#34;0.1.2&#34;, &#34;xdist&#34;: &#34;3.6.1&#34;}}, &#34;tests&#34;: {&#34;Test_Action.py::TestActions::test_work&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Action.py::TestActions::test_work&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Action.py::TestActions::test_work&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestActions:Test_Action.py:21 Successfully logged into the application\nINFO     TestActions:Test_Action.py:23 Successfully clicked the clock icon in the dashboard page\nINFO     TestActions:Test_Action.py:25 Punch Out page is opened and verified successfully\n\n&#34;}], &#34;Test_Action.py::TestActions::test_pending&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Action.py::TestActions::test_pending&#34;, &#34;duration&#34;: &#34;00:00:14&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Action.py::TestActions::test_pending&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:14&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestActions:Test_Action.py:35 Successfully logged into the application\nINFO     TestActions:Test_Action.py:37 Successfully clicked the Pending Self Review\nINFO     TestActions:Test_Action.py:39 Performance page is opened and verified successfully\n\n&#34;}], &#34;Test_Action.py::TestActions::test_candidates&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Action.py::TestActions::test_candidates&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Action.py::TestActions::test_candidates&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestActions:Test_Action.py:49 Successfully logged into the application\nINFO     TestActions:Test_Action.py:51 Successfully clicked the Candidate to Interview\nINFO     TestActions:Test_Action.py:53 Recruitment page is opened and verified successfully\n\n&#34;}], &#34;Test_Buzz.py::TestBuzz::test_buzz&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Buzz.py::TestBuzz::test_buzz&#34;, &#34;duration&#34;: &#34;00:00:24&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Buzz.py::TestBuzz::test_buzz&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:24&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the saved message.\n&#34;}], &#34;Test_Candidate.py::TestCandidate::test_candidate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Candidate.py::TestCandidate::test_candidate&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Candidate.py::TestCandidate::test_candidate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_candidate:Test_Candidate.py:14 Login is successfull\nINFO     test_candidate:Test_Candidate.py:18 Recruiment button is clicked\nINFO     test_candidate:Test_Candidate.py:20 Candidate buton is clicked\nINFO     test_candidate:Test_Candidate.py:22 Vacancy field is filled\nINFO     test_candidate:Test_Candidate.py:24 Status field is filled\nINFO     test_candidate:Test_Candidate.py:26 search button is clicked\nINFO     test_candidate:Test_Candidate.py:28 Successfull search\n\n&#34;}], &#34;Test_Candidate.py::TestCandidate::test_delete&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Candidate.py::TestCandidate::test_delete&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Candidate.py::TestCandidate::test_delete&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_delete:Test_Candidate.py:34 Login is successfull\nINFO     test_delete:Test_Candidate.py:38 Recruiment button is clicked\nINFO     test_delete:Test_Candidate.py:40 Candidate buton is clicked\nINFO     test_delete:Test_Candidate.py:42 Delete icon is clicked\nINFO     test_delete:Test_Candidate.py:44 Yes button is clicked\nINFO     test_delete:Test_Candidate.py:46 Successfully deleted\n\n&#34;}], &#34;Test_ChangePassword.py::TestChangePassword::test_change_password&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ChangePassword.py::TestChangePassword::test_change_password&#34;, &#34;duration&#34;: &#34;00:00:14&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ChangePassword.py::TestChangePassword::test_change_password&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:14&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_ChangePassword.py::TestChangePassword::test_invalid_current_password&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ChangePassword.py::TestChangePassword::test_invalid_current_password&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ChangePassword.py::TestChangePassword::test_invalid_current_password&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_ChangePassword.py::TestChangePassword::test_invalid_confirm_password&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ChangePassword.py::TestChangePassword::test_invalid_confirm_password&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ChangePassword.py::TestChangePassword::test_invalid_confirm_password&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_Configuration.py::TestConfigurations::test_configuration&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_Configuration.py::TestConfigurations::test_configuration&#34;, &#34;duration&#34;: &#34;00:00:27&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Configuration.py::TestConfigurations::test_configuration&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:27&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_Configuration.TestConfigurations object at 0x000001E408850710&amp;gt;\n\n    @pytest.mark.smoke\n    def test_configuration(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;This test case checks the workflow of logging into the application, selecting configuration settings,\n        and verifying that an email is sent.&amp;quot;&amp;quot;&amp;quot;\n    \n        config = ConfigurationPage(self.driver)\n        test_email = utility_file.get_config(&amp;quot;Email Credentials&amp;quot;,&amp;quot;test_email&amp;quot;)\n        sent_email = utility_file.get_config(&amp;quot;Email Credentials&amp;quot;,&amp;quot;sent_email&amp;quot;)\n        config.valid_login()\n        self.log.info(&amp;quot;Successfully logged into the application&amp;quot;)\n        config.congiguration()\n        self.log.info(&amp;quot;Configurations is clicked from the drop down successfully&amp;quot;)\n        config.sent_email(test_email)\n        self.log.info(&amp;quot;Test Email is typed in the appropriate text box&amp;quot;)\n        config.click_checkbox()\n        self.log.info(&amp;quot;Male gender checkbox is clicked&amp;quot;)\n        config.enable_mail()\n        self.log.info(&amp;quot;Sent Email is enabled&amp;quot;)\n        config.test_email(sent_email)\n        self.log.info(&amp;quot;Sent Email is typed in the appropriate text box&amp;quot;)\n        config.click_save()\n        self.log.info(&amp;quot;Save button is clicked&amp;quot;)\n&amp;gt;       assert config.assert_email()\nE       assert False\nE        +  where False = &amp;lt;bound method ConfigurationPage.assert_email of &amp;lt;Pages.CongigurationPage.ConfigurationPage object at 0x000001E4200623F0&amp;gt;&amp;gt;()\nE        +    where &amp;lt;bound method ConfigurationPage.assert_email of &amp;lt;Pages.CongigurationPage.ConfigurationPage object at 0x000001E4200623F0&amp;gt;&amp;gt; = &amp;lt;Pages.CongigurationPage.ConfigurationPage object at 0x000001E4200623F0&amp;gt;.assert_email\n\nTest_Configuration.py:37: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nTimeoutException: Element (//div[@data-v-957b4417]//input)[5] not visible after waiting. Message: \nStacktrace:\n\tGetHandleVerifier [0x00007FF723EA3E52+31618]\n\t(No symbol) [0x00007FF723E1B0B9]\n\t(No symbol) [0x00007FF723CD888A]\n\t(No symbol) [0x00007FF723D28524]\n\t(No symbol) [0x00007FF723D2862C]\n\t(No symbol) [0x00007FF723D6F787]\n\t(No symbol) [0x00007FF723D4D14F]\n\t(No symbol) [0x00007FF723D6CA80]\n\t(No symbol) [0x00007FF723D4CEB3]\n\t(No symbol) [0x00007FF723D1A46B]\n\t(No symbol) [0x00007FF723D1B001]\n\tGetHandleVerifier [0x00007FF7241AA02D+3202397]\n\tGetHandleVerifier [0x00007FF7241F6A4D+3516285]\n\tGetHandleVerifier [0x00007FF7241EC4C0+3473904]\n\tGetHandleVerifier [0x00007FF723F55D56+760454]\n\t(No symbol) [0x00007FF723E26B5F]\n\t(No symbol) [0x00007FF723E21CF4]\n\t(No symbol) [0x00007FF723E21E82]\n\t(No symbol) [0x00007FF723E1122F]\n\tBaseThreadInitThunk [0x00007FFF89B3257D+29]\n\tRtlUserThreadStart [0x00007FFF89FCAA48+40]\n\nJavascriptException: Issue executing JavaScript for (//div[@data-v-957b4417]//input)[5]. Message: javascript error: Cannot read properties of null (reading &amp;#x27;focus&amp;#x27;)\n  (Session info: chrome=126.0.6478.61)\nStacktrace:\n\tGetHandleVerifier [0x00007FF723EA3E52+31618]\n\t(No symbol) [0x00007FF723E1B0B9]\n\t(No symbol) [0x00007FF723CD888A]\n\t(No symbol) [0x00007FF723CDE6BE]\n\t(No symbol) [0x00007FF723CE1338]\n\t(No symbol) [0x00007FF723D6D77B]\n\t(No symbol) [0x00007FF723D4D10A]\n\t(No symbol) [0x00007FF723D6CA80]\n\t(No symbol) [0x00007FF723D4CEB3]\n\t(No symbol) [0x00007FF723D1A46B]\n\t(No symbol) [0x00007FF723D1B001]\n\tGetHandleVerifier [0x00007FF7241AA02D+3202397]\n\tGetHandleVerifier [0x00007FF7241F6A4D+3516285]\n\tGetHandleVerifier [0x00007FF7241EC4C0+3473904]\n\tGetHandleVerifier [0x00007FF723F55D56+760454]\n\t(No symbol) [0x00007FF723E26B5F]\n\t(No symbol) [0x00007FF723E21CF4]\n\t(No symbol) [0x00007FF723E21E82]\n\t(No symbol) [0x00007FF723E1122F]\n\tBaseThreadInitThunk [0x00007FFF89B3257D+29]\n\tRtlUserThreadStart [0x00007FFF89FCAA48+40]\n\nAn error occurred: Assertion failed: expected text is &amp;#x27;Test Email Sent&amp;#x27;, but the actual text is &amp;#x27;Successfully Saved&amp;#x27;\n\n------------------------------ Captured log call -------------------------------\nINFO     TestConfigurations:Test_Configuration.py:24 Successfully logged into the application\nINFO     TestConfigurations:Test_Configuration.py:26 Configurations is clicked from the drop down successfully\nINFO     TestConfigurations:Test_Configuration.py:28 Test Email is typed in the appropriate text box\nINFO     TestConfigurations:Test_Configuration.py:30 Male gender checkbox is clicked\nINFO     TestConfigurations:Test_Configuration.py:32 Sent Email is enabled\nINFO     TestConfigurations:Test_Configuration.py:34 Sent Email is typed in the appropriate text box\nINFO     TestConfigurations:Test_Configuration.py:36 Save button is clicked\n\n&#34;}], &#34;Test_ContactDetails.py::TestContactDetails::test_contact_details_same_email[Gandhi-Nehru-Salem-Tamilnadu-636306-25085-7339446896-123456789-moon@gmail.com-good@gmail.com]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ContactDetails.py::TestContactDetails::test_contact_details_same_email[Gandhi-Nehru-Salem-Tamilnadu-636306-25085-7339446896-123456789-moon@gmail.com-good@gmail.com]&#34;, &#34;duration&#34;: &#34;00:00:47&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ContactDetails.py::TestContactDetails::test_contact_details_same_email[Gandhi-Nehru-Salem-Tamilnadu-636306-25085-7339446896-123456789-moon@gmail.com-good@gmail.com]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:47&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the update message.\n&#34;}], &#34;Test_ContactDetails.py::TestContactDetails::test_contact_details_different_email[Cross road-Main road-Coimbatore-Tamilnadu-636305-25085-7339446896-123456789-moon@gmail.com-moon@gmail.com]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ContactDetails.py::TestContactDetails::test_contact_details_different_email[Cross road-Main road-Coimbatore-Tamilnadu-636305-25085-7339446896-123456789-moon@gmail.com-moon@gmail.com]&#34;, &#34;duration&#34;: &#34;00:00:38&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ContactDetails.py::TestContactDetails::test_contact_details_different_email[Cross road-Main road-Coimbatore-Tamilnadu-636305-25085-7339446896-123456789-moon@gmail.com-moon@gmail.com]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:38&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the error message.\n&#34;}], &#34;Test_Dependent.py::TestDependent::test_add_dependent[Suvetha-2021-14-06]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Dependent.py::TestDependent::test_add_dependent[Suvetha-2021-14-06]&#34;, &#34;duration&#34;: &#34;00:00:17&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Dependent.py::TestDependent::test_add_dependent[Suvetha-2021-14-06]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:17&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nsaved message is displayed successfully.\n&#34;}], &#34;Test_Dependent.py::TestDependent::test_add_dependent_cancel[Suvetha-2021-14-06]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Dependent.py::TestDependent::test_add_dependent_cancel[Suvetha-2021-14-06]&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Dependent.py::TestDependent::test_add_dependent_cancel[Suvetha-2021-14-06]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_Dependent.py::TestDependent::test_add_dependent_mandatory[Suvetha]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Dependent.py::TestDependent::test_add_dependent_mandatory[Suvetha]&#34;, &#34;duration&#34;: &#34;00:00:19&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Dependent.py::TestDependent::test_add_dependent_mandatory[Suvetha]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:19&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nsaved message is displayed successfully.\n&#34;}], &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact[Suvetha-sister-25085-7339446896-1234567890]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact[Suvetha-sister-25085-7339446896-1234567890]&#34;, &#34;duration&#34;: &#34;00:00:33&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact[Suvetha-sister-25085-7339446896-1234567890]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:33&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the update message.\n&#34;}], &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_cancel[Suvetha-sister-25085-7339446896-1234567890]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_cancel[Suvetha-sister-25085-7339446896-1234567890]&#34;, &#34;duration&#34;: &#34;00:00:25&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_cancel[Suvetha-sister-25085-7339446896-1234567890]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:25&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_mandatory[Suvetha-sister-25085-None-None]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_mandatory[Suvetha-sister-25085-None-None]&#34;, &#34;duration&#34;: &#34;00:00:38&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_mandatory[Suvetha-sister-25085-None-None]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:38&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the update message.\n&#34;}], &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_required[Suvetha-sister-None-None-None]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_required[Suvetha-sister-None-None-None]&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_EmergencyContact.py::TestEmergencyContact::test_add_emergency_contact_required[Suvetha-sister-None-None-None]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nUpdate message is displayed successfully.\n&#34;}], &#34;Test_EmployeeLeaveList.py::TestLeaveList::test_emp_leavelist&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_EmployeeLeaveList.py::TestLeaveList::test_emp_leavelist&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_EmployeeLeaveList.py::TestLeaveList::test_emp_leavelist&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_EmployeeLeaveList.TestLeaveList object at 0x000001E4200CFBC0&amp;gt;\n\n    @pytest.mark.retest\n    def test_emp_leavelist(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_EmployeeLeaveList.py:15: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_emp_leavelist:Test_EmployeeLeaveList.py:14 Login is successfull\n\n&#34;}], &#34;Test_EmploymentStatus.py::TestEmployment::test_add_status[status0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_EmploymentStatus.py::TestEmployment::test_add_status[status0]&#34;, &#34;duration&#34;: &#34;00:00:32&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_EmploymentStatus.py::TestEmployment::test_add_status[status0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:32&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_EmploymentStatus.TestEmployment object at 0x000001E42010A0C0&amp;gt;, status = [&amp;#x27;Part Full Time&amp;#x27;]\n\n    @pytest.mark.smoke\n    def test_add_status(self,status):\n    \n        &amp;quot;&amp;quot;&amp;quot;This test case checks the workflow of logging into the application, clicking the Employment Status option,\n        and verifying that the status is added and saved successfully.&amp;quot;&amp;quot;&amp;quot;\n    \n        emp = EmploymentPage(self.driver)\n        emp.valid_login()\n        self.log.info(&amp;quot;Successfully logged into the application&amp;quot;)\n        emp.employ_status()\n        self.log.info(&amp;quot;Employment Status is clicked from the drop down successfully&amp;quot;)\n        emp.add()\n        self.log.info(&amp;quot;Add button is clicked&amp;quot;)\n        emp.add_employ_status(status[0])\n        self.log.info(&amp;quot;Employment name is typed in the appropriate text box&amp;quot;)\n        emp.click_save()\n        self.log.info(&amp;quot;Save button is clicked&amp;quot;)\n&amp;gt;       assert emp.assert_employ()\nE       assert False\nE        +  where False = &amp;lt;bound method EmploymentPage.assert_employ of &amp;lt;Pages.EmploymentPage.EmploymentPage object at 0x000001E42011B3E0&amp;gt;&amp;gt;()\nE        +    where &amp;lt;bound method EmploymentPage.assert_employ of &amp;lt;Pages.EmploymentPage.EmploymentPage object at 0x000001E42011B3E0&amp;gt;&amp;gt; = &amp;lt;Pages.EmploymentPage.EmploymentPage object at 0x000001E42011B3E0&amp;gt;.assert_employ\n\nTest_EmploymentStatus.py:32: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nTimeoutException: Element (//div[@class=&amp;#x27;oxd-toast-content oxd-toast-content--success&amp;#x27;]//p)[2] not visible after waiting. Message: \nStacktrace:\n\tGetHandleVerifier [0x00007FF723EA3E52+31618]\n\t(No symbol) [0x00007FF723E1B0B9]\n\t(No symbol) [0x00007FF723CD888A]\n\t(No symbol) [0x00007FF723D28524]\n\t(No symbol) [0x00007FF723D2862C]\n\t(No symbol) [0x00007FF723D6F787]\n\t(No symbol) [0x00007FF723D4D14F]\n\t(No symbol) [0x00007FF723D6CA80]\n\t(No symbol) [0x00007FF723D4CEB3]\n\t(No symbol) [0x00007FF723D1A46B]\n\t(No symbol) [0x00007FF723D1B001]\n\tGetHandleVerifier [0x00007FF7241AA02D+3202397]\n\tGetHandleVerifier [0x00007FF7241F6A4D+3516285]\n\tGetHandleVerifier [0x00007FF7241EC4C0+3473904]\n\tGetHandleVerifier [0x00007FF723F55D56+760454]\n\t(No symbol) [0x00007FF723E26B5F]\n\t(No symbol) [0x00007FF723E21CF4]\n\t(No symbol) [0x00007FF723E21E82]\n\t(No symbol) [0x00007FF723E1122F]\n\tBaseThreadInitThunk [0x00007FFF89B3257D+29]\n\tRtlUserThreadStart [0x00007FFF89FCAA48+40]\n\nAn error occurred: &amp;#x27;NoneType&amp;#x27; object has no attribute &amp;#x27;text&amp;#x27;\n\n------------------------------ Captured log call -------------------------------\nINFO     TestEmployment:Test_EmploymentStatus.py:23 Successfully logged into the application\nINFO     TestEmployment:Test_EmploymentStatus.py:25 Employment Status is clicked from the drop down successfully\nINFO     TestEmployment:Test_EmploymentStatus.py:27 Add button is clicked\nINFO     TestEmployment:Test_EmploymentStatus.py:29 Employment name is typed in the appropriate text box\nINFO     TestEmployment:Test_EmploymentStatus.py:31 Save button is clicked\n\n&#34;}], &#34;Test_ForgotPassword.py::TestForgotPassword::test_forgot_password&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ForgotPassword.py::TestForgotPassword::test_forgot_password&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ForgotPassword.py::TestForgotPassword::test_forgot_password&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_ForgotPassword.py::TestForgotPassword::test_forgot_password_cancel&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ForgotPassword.py::TestForgotPassword::test_forgot_password_cancel&#34;, &#34;duration&#34;: &#34;00:00:20&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ForgotPassword.py::TestForgotPassword::test_forgot_password_cancel&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:20&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_General.py::TestGeneral::test_edit&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_General.py::TestGeneral::test_edit&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_General.py::TestGeneral::test_edit&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestGeneral:Test_General.py:22 Successfully logged into the application\nINFO     TestGeneral:Test_General.py:24 General Information is clicked from the drop down successfully\nINFO     TestGeneral:Test_General.py:26 All the text box is enabled and verified\n\n&#34;}], &#34;Test_General.py::TestGeneral::test_edit_name&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_General.py::TestGeneral::test_edit_name&#34;, &#34;duration&#34;: &#34;00:00:20&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_General.py::TestGeneral::test_edit_name&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:20&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestGeneral:Test_General.py:37 Successfully logged into the application\nINFO     TestGeneral:Test_General.py:39 General Information is clicked from the drop down successfully\nINFO     TestGeneral:Test_General.py:41 Organization Name is typed in the appropriate text box\nINFO     TestGeneral:Test_General.py:43 Save button is clicked\nINFO     TestGeneral:Test_General.py:45 Successfully Updated message is seen and verified\n\n&#34;}], &#34;Test_Immigration.py::TestImmigration::test_add_immigration_details[1317-2024-27-06-2024-28-06-Good-2024-25-06-Excellent]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Immigration.py::TestImmigration::test_add_immigration_details[1317-2024-27-06-2024-28-06-Good-2024-25-06-Excellent]&#34;, &#34;duration&#34;: &#34;00:00:43&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Immigration.py::TestImmigration::test_add_immigration_details[1317-2024-27-06-2024-28-06-Good-2024-25-06-Excellent]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:43&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the update message.\n&#34;}], &#34;Test_Immigration.py::TestImmigration::test_add_immigration_details_cancel[1317-2024-27-06-2024-28-06-Good-2024-25-06-Excellent]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Immigration.py::TestImmigration::test_add_immigration_details_cancel[1317-2024-27-06-2024-28-06-Good-2024-25-06-Excellent]&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Immigration.py::TestImmigration::test_add_immigration_details_cancel[1317-2024-27-06-2024-28-06-Good-2024-25-06-Excellent]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_InValidLogin.py::TestLogin::test_invalid_login[aadmin-admin123]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_InValidLogin.py::TestLogin::test_invalid_login[aadmin-admin123]&#34;, &#34;duration&#34;: &#34;00:00:13&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_InValidLogin.py::TestLogin::test_invalid_login[aadmin-admin123]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:13&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_InValidLogin.py::TestLogin::test_invalid_login[Admin-1234]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_InValidLogin.py::TestLogin::test_invalid_login[Admin-1234]&#34;, &#34;duration&#34;: &#34;00:00:14&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_InValidLogin.py::TestLogin::test_invalid_login[Admin-1234]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:14&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_InValidLogin.py::TestLogin::test_invalid_login[aadmin-12345]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_InValidLogin.py::TestLogin::test_invalid_login[aadmin-12345]&#34;, &#34;duration&#34;: &#34;00:00:13&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_InValidLogin.py::TestLogin::test_invalid_login[aadmin-12345]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:13&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[None-None-aac-None]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[None-None-aac-None]&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[None-None-aac-None]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nEmployee ID is None, skipping the ID field.\n\n------------------------------ Captured log call -------------------------------\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:14 Login is successfull\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:17 PIM button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:19 Add employee button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:21 First_name,Middle_name,Last_name,Emp_id is sent to add the employee\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:23 Save button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:25 Unsuccesfull add\n\n&#34;}], &#34;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[None-None-None-None]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[None-None-None-None]&#34;, &#34;duration&#34;: &#34;00:00:24&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[None-None-None-None]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:24&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nEmployee ID is None, skipping the ID field.\n\n------------------------------ Captured log call -------------------------------\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:14 Login is successfull\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:17 PIM button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:19 Add employee button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:21 First_name,Middle_name,Last_name,Emp_id is sent to add the employee\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:23 Save button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:25 Unsuccesfull add\n\n&#34;}], &#34;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[abc-None-None-None]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[abc-None-None-None]&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_InvalidAddEmployee.py::TestValidAddEmployee::test_InvalidvalidAddEmp[abc-None-None-None]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nEmployee ID is None, skipping the ID field.\n\n------------------------------ Captured log call -------------------------------\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:14 Login is successfull\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:17 PIM button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:19 Add employee button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:21 First_name,Middle_name,Last_name,Emp_id is sent to add the employee\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:23 Save button is clicked\nINFO     test_InvalidvalidAddEmp:Test_InvalidAddEmployee.py:25 Unsuccesfull add\n\n&#34;}], &#34;Test_Job.py::TestJob::test_add_job&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_Job.py::TestJob::test_add_job&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Job.py::TestJob::test_add_job&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_Job.TestJob object at 0x000001E4200C2090&amp;gt;\n\n    @pytest.mark.smoke\n    def test_add_job(self):\n    \n        &amp;quot;&amp;quot;&amp;quot; This test case checks the workflow of logging into the application, navigating to the job section,\n        adding a new job with valid details, and verifying that the job is successfully saved.&amp;quot;&amp;quot;&amp;quot;\n    \n        job = JobPage(self.driver)\n        title = utility_file.get_config(&amp;quot;valid job details&amp;quot;,&amp;quot;job_title&amp;quot;)\n        desc = utility_file.get_config(&amp;quot;valid job details&amp;quot;,&amp;quot;job_descr&amp;quot;)\n        note = utility_file.get_config(&amp;quot;valid job details&amp;quot;,&amp;quot;job_note&amp;quot;)\n        job.valid_login()\n        self.log.info(&amp;quot;Successfully logged into the application&amp;quot;)\n&amp;gt;       job.job_functions()\n\nTest_Job.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;Pages.JobPage.JobPage object at 0x000001E420092A50&amp;gt;\n\n    def job_functions(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;Navigates to the job functions page.&amp;quot;&amp;quot;&amp;quot;\n    \n        self.click(By.CSS_SELECTOR,self.admin_css)\n        admin = self.find(By.CSS_SELECTOR,self.admin_css)\n&amp;gt;       self.click(admin)\nE       TypeError: BasePage.click() missing 1 required positional argument: &amp;#x27;locator&amp;#x27;\n\n..\\Pages\\JobPage.py:31: TypeError\n\n------------------------------ Captured log call -------------------------------\nINFO     TestJob:Test_Job.py:25 Successfully logged into the application\n\n&#34;}], &#34;Test_Job.py::TestJob::test_cancel&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_Job.py::TestJob::test_cancel&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Job.py::TestJob::test_cancel&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_Job.TestJob object at 0x000001E4200C36E0&amp;gt;\n\n    @pytest.mark.regression\n    def test_cancel(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;This test case checks the workflow of logging into the application, navigating to the job section,\n        starting to add a new job with valid details, cancelling the action, and verifying that the previous page is loaded.&amp;quot;&amp;quot;&amp;quot;\n    \n        job = JobPage(self.driver)\n        title = utility_file.get_config(&amp;quot;valid job details&amp;quot;,&amp;quot;job_title&amp;quot;)\n        desc = utility_file.get_config(&amp;quot;valid job details&amp;quot;,&amp;quot;job_descr&amp;quot;)\n        note = utility_file.get_config(&amp;quot;valid job details&amp;quot;,&amp;quot;job_note&amp;quot;)\n        job.valid_login()\n        self.log.info(&amp;quot;Successfully logged into the application&amp;quot;)\n&amp;gt;       job.job_functions()\n\nTest_Job.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;Pages.JobPage.JobPage object at 0x000001E420125D60&amp;gt;\n\n    def job_functions(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;Navigates to the job functions page.&amp;quot;&amp;quot;&amp;quot;\n    \n        self.click(By.CSS_SELECTOR,self.admin_css)\n        admin = self.find(By.CSS_SELECTOR,self.admin_css)\n&amp;gt;       self.click(admin)\nE       TypeError: BasePage.click() missing 1 required positional argument: &amp;#x27;locator&amp;#x27;\n\n..\\Pages\\JobPage.py:31: TypeError\n\n------------------------------ Captured log call -------------------------------\nINFO     TestJob:Test_Job.py:52 Successfully logged into the application\n\n&#34;}], &#34;Test_Job.py::TestJob::test_partial_job&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_Job.py::TestJob::test_partial_job&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Job.py::TestJob::test_partial_job&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_Job.TestJob object at 0x000001E4200E59A0&amp;gt;\n\n    @pytest.mark.smoke\n    def test_partial_job(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;This test case checks the workflow of logging into the application, navigating to the job section,\n        adding a new job with partial details, and verifying that the job is successfully saved.&amp;quot;&amp;quot;&amp;quot;\n    \n        job = JobPage(self.driver)\n        title = utility_file.get_config(&amp;quot;partial job details&amp;quot;,&amp;quot;job_title&amp;quot;)\n        job.valid_login()\n        self.log.info(&amp;quot;Successfully logged into the application&amp;quot;)\n&amp;gt;       job.job_functions()\n\nTest_Job.py:78: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;Pages.JobPage.JobPage object at 0x000001E420072AE0&amp;gt;\n\n    def job_functions(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;Navigates to the job functions page.&amp;quot;&amp;quot;&amp;quot;\n    \n        self.click(By.CSS_SELECTOR,self.admin_css)\n        admin = self.find(By.CSS_SELECTOR,self.admin_css)\n&amp;gt;       self.click(admin)\nE       TypeError: BasePage.click() missing 1 required positional argument: &amp;#x27;locator&amp;#x27;\n\n..\\Pages\\JobPage.py:31: TypeError\n\n------------------------------ Captured log call -------------------------------\nINFO     TestJob:Test_Job.py:77 Successfully logged into the application\n\n&#34;}], &#34;Test_Job.py::TestJob::test_delete_job&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_Job.py::TestJob::test_delete_job&#34;, &#34;duration&#34;: &#34;00:00:14&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Job.py::TestJob::test_delete_job&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:14&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_Job.TestJob object at 0x000001E4200CD7F0&amp;gt;\n\n    @pytest.mark.smoke\n    def test_delete_job(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;This test case checks the workflow of logging into the application, navigating to the job section,\n        deleting a job, and verifying that the job is successfully deleted.&amp;quot;&amp;quot;&amp;quot;\n    \n        job = JobPage(self.driver)\n        job.valid_login()\n        self.log.info(&amp;quot;Successfully logged into the application&amp;quot;)\n&amp;gt;       job.job_functions()\n\nTest_Job.py:98: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;Pages.JobPage.JobPage object at 0x000001E4200C15B0&amp;gt;\n\n    def job_functions(self):\n    \n        &amp;quot;&amp;quot;&amp;quot;Navigates to the job functions page.&amp;quot;&amp;quot;&amp;quot;\n    \n        self.click(By.CSS_SELECTOR,self.admin_css)\n        admin = self.find(By.CSS_SELECTOR,self.admin_css)\n&amp;gt;       self.click(admin)\nE       TypeError: BasePage.click() missing 1 required positional argument: &amp;#x27;locator&amp;#x27;\n\n..\\Pages\\JobPage.py:31: TypeError\n\n------------------------------ Captured log call -------------------------------\nINFO     TestJob:Test_Job.py:97 Successfully logged into the application\n\n&#34;}], &#34;Test_Location.py::TestLocation::test_location&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Location.py::TestLocation::test_location&#34;, &#34;duration&#34;: &#34;00:00:21&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Location.py::TestLocation::test_location&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:21&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestLocation:Test_Location.py:25 Successfully logged into the application\nINFO     TestLocation:Test_Location.py:27 Location is clicked from the drop down successfully\nINFO     TestLocation:Test_Location.py:29 Location is filled and name,city is is typed in the appropriate text box\nINFO     TestLocation:Test_Location.py:31 Search button is clicked\nINFO     TestLocation:Test_Location.py:33 Search result is seen and verified successfully\n\n&#34;}], &#34;Test_Membership.py::TestMembership::test_member&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Membership.py::TestMembership::test_member&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Membership.py::TestMembership::test_member&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestMembership:Test_Membership.py:25 Successfully logged into the application\nINFO     TestMembership:Test_Membership.py:27 Membership is clicked from the list successfully\nINFO     TestMembership:Test_Membership.py:29 Add button is clicked\nINFO     TestMembership:Test_Membership.py:31 Acca is selected as the member role\nINFO     TestMembership:Test_Membership.py:33 Company is selected as the subscription method\nINFO     TestMembership:Test_Membership.py:35 Subscription amount is typed in the appropriate text box\nINFO     TestMembership:Test_Membership.py:37 Appropriate currency is selected\nINFO     TestMembership:Test_Membership.py:39 Commence date is typed in the appropriate text box\nINFO     TestMembership:Test_Membership.py:41 Renewal date is typed in the appropriate text box\nINFO     TestMembership:Test_Membership.py:43 Save button is clicked\nINFO     TestMembership:Test_Membership.py:45 Successfully Saved message is seen and verified\n\n&#34;}], &#34;Test_Membership.py::TestMembership::test_man_member&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Membership.py::TestMembership::test_man_member&#34;, &#34;duration&#34;: &#34;00:00:24&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Membership.py::TestMembership::test_man_member&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:24&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestMembership:Test_Membership.py:55 Successfully logged into the application\nINFO     TestMembership:Test_Membership.py:57 Membership is clicked from the list successfully\nINFO     TestMembership:Test_Membership.py:59 Add button is clicked\nINFO     TestMembership:Test_Membership.py:61 Acca is selected as the member role\nINFO     TestMembership:Test_Membership.py:63 Save button is clicked\nINFO     TestMembership:Test_Membership.py:65 Successfully Saved message is seen and verified\n\n&#34;}], &#34;Test_Nation.py::TestNation::test_new_nation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Nation.py::TestNation::test_new_nation&#34;, &#34;duration&#34;: &#34;00:00:37&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Nation.py::TestNation::test_new_nation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:37&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException: Element (//div[@class=&amp;#x27;oxd-toast-start&amp;#x27;]//p)[2] not visible after waiting. Message: \nStacktrace:\n\tGetHandleVerifier [0x00007FF723EA3E52+31618]\n\t(No symbol) [0x00007FF723E1B0B9]\n\t(No symbol) [0x00007FF723CD888A]\n\t(No symbol) [0x00007FF723D28524]\n\t(No symbol) [0x00007FF723D2862C]\n\t(No symbol) [0x00007FF723D6F787]\n\t(No symbol) [0x00007FF723D4D14F]\n\t(No symbol) [0x00007FF723D6CA80]\n\t(No symbol) [0x00007FF723D4CEB3]\n\t(No symbol) [0x00007FF723D1A46B]\n\t(No symbol) [0x00007FF723D1B001]\n\tGetHandleVerifier [0x00007FF7241AA02D+3202397]\n\tGetHandleVerifier [0x00007FF7241F6A4D+3516285]\n\tGetHandleVerifier [0x00007FF7241EC4C0+3473904]\n\tGetHandleVerifier [0x00007FF723F55D56+760454]\n\t(No symbol) [0x00007FF723E26B5F]\n\t(No symbol) [0x00007FF723E21CF4]\n\t(No symbol) [0x00007FF723E21E82]\n\t(No symbol) [0x00007FF723E1122F]\n\tBaseThreadInitThunk [0x00007FFF89B3257D+29]\n\tRtlUserThreadStart [0x00007FFF89FCAA48+40]\n\nAn error occurred: &amp;#x27;NoneType&amp;#x27; object has no attribute &amp;#x27;text&amp;#x27;\n\n------------------------------ Captured log call -------------------------------\nINFO     TestNation:Test_Nation.py:23 Successfully logged into the application\nINFO     TestNation:Test_Nation.py:25 Nationalities is clicked from the drop down successfully\nINFO     TestNation:Test_Nation.py:27 Add button is clicked\nINFO     TestNation:Test_Nation.py:29 Nation name is typed in the appropriate text box\nINFO     TestNation:Test_Nation.py:31 Save button is clicked\nINFO     TestNation:Test_Nation.py:33 Successfully Saved message is seen and verified\n\n&#34;}], &#34;Test_Nation.py::TestNation::test_existing_nation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Nation.py::TestNation::test_existing_nation&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Nation.py::TestNation::test_existing_nation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestNation:Test_Nation.py:44 Successfully logged into the application\nINFO     TestNation:Test_Nation.py:46 Nationalities is clicked from the drop down successfully\nINFO     TestNation:Test_Nation.py:48 Add button is clicked\nINFO     TestNation:Test_Nation.py:50 Nation name is typed in the appropriate text box\nINFO     TestNation:Test_Nation.py:52 Save button is clicked\nINFO     TestNation:Test_Nation.py:54 Already exists message is seen and verified\n\n&#34;}], &#34;Test_Pay.py::TestPay::test_add_paygrade[paygrade0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Pay.py::TestPay::test_add_paygrade[paygrade0]&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Pay.py::TestPay::test_add_paygrade[paygrade0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestPay:Test_Pay.py:23 Successfully logged into the application\nINFO     TestPay:Test_Pay.py:25 Pay Grade is clicked from the drop down successfully\nINFO     TestPay:Test_Pay.py:27 Add button is clicked\nINFO     TestPay:Test_Pay.py:29 Pay Grade is typed in the appropriate text box\nINFO     TestPay:Test_Pay.py:31 Save button is clicked\nINFO     TestPay:Test_Pay.py:33 Successfully Saved message is seen and verified\n\n&#34;}], &#34;Test_PersonalDetails.py::TestPersonalDetails::test_personal_details[Suvetha-Jayagopi-P-1317-1307-2002-2024-21-06-dob0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_PersonalDetails.py::TestPersonalDetails::test_personal_details[Suvetha-Jayagopi-P-1317-1307-2002-2024-21-06-dob0]&#34;, &#34;duration&#34;: &#34;00:00:43&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_PersonalDetails.py::TestPersonalDetails::test_personal_details[Suvetha-Jayagopi-P-1317-1307-2002-2024-21-06-dob0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:43&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the update message.\n&#34;}], &#34;Test_PersonalDetails.py::TestPersonalDetails::test_personal_details_mandatory[Monik-Jayagopi-J]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_PersonalDetails.py::TestPersonalDetails::test_personal_details_mandatory[Monik-Jayagopi-J]&#34;, &#34;duration&#34;: &#34;00:00:44&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_PersonalDetails.py::TestPersonalDetails::test_personal_details_mandatory[Monik-Jayagopi-J]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:44&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\nTimeoutException occurred while waiting for the update message.\n&#34;}], &#34;Test_Qualification.py::TestQualification::test_qualification&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Qualification.py::TestQualification::test_qualification&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Qualification.py::TestQualification::test_qualification&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestQualification:Test_Qualification.py:27 Successfully logged into the application\nINFO     TestQualification:Test_Qualification.py:29 Qualification is clicked from the list successfully\nINFO     TestQualification:Test_Qualification.py:31 Add button is clicked\nINFO     TestQualification:Test_Qualification.py:33 Company name is typed in the Company name text box\nINFO     TestQualification:Test_Qualification.py:35 Job Title is typed in the appropriate text box\nINFO     TestQualification:Test_Qualification.py:37 From date is typed in the appropriate text box\nINFO     TestQualification:Test_Qualification.py:39 To Date is typed in the appropriate text box\nINFO     TestQualification:Test_Qualification.py:41 Comment is typed in the appropriate text box\nINFO     TestQualification:Test_Qualification.py:43 Save button is clicked\nINFO     TestQualification:Test_Qualification.py:45 Successfully Saved message is seen and verified\n\n&#34;}], &#34;Test_Qualification.py::TestQualification::test_man_qualification&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Qualification.py::TestQualification::test_man_qualification&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Qualification.py::TestQualification::test_man_qualification&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestQualification:Test_Qualification.py:57 Successfully logged into the application\nINFO     TestQualification:Test_Qualification.py:59 Qualification is clicked from the list successfully\nINFO     TestQualification:Test_Qualification.py:61 Add button is clicked\nINFO     TestQualification:Test_Qualification.py:63 Company name is typed in the Company name text box\nINFO     TestQualification:Test_Qualification.py:65 Job Title is typed in the appropriate text box\nINFO     TestQualification:Test_Qualification.py:67 Save button is clicked\nINFO     TestQualification:Test_Qualification.py:69 Successfully Saved message is seen and verified\n\n&#34;}], &#34;Test_User_Management.py::TestUser::test_valid_search&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_User_Management.py::TestUser::test_valid_search&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_User_Management.py::TestUser::test_valid_search&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestUser:Test_User_Management.py:21 Successfully logged into the application\nINFO     TestUser:Test_User_Management.py:23 Users is clicked from the drop down successfully\nINFO     TestUser:Test_User_Management.py:27 Username is typed in the username text box\nINFO     TestUser:Test_User_Management.py:29 ess is selected as the user role\nINFO     TestUser:Test_User_Management.py:31 Employee name is typed in the Employee name text box\nINFO     TestUser:Test_User_Management.py:33 Enable status is selected\nINFO     TestUser:Test_User_Management.py:35 Search Button is clicked\nINFO     TestUser:Test_User_Management.py:37 Search result is verified successfully\n\n&#34;}], &#34;Test_User_Management.py::TestUser::test_partial_search&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_User_Management.py::TestUser::test_partial_search&#34;, &#34;duration&#34;: &#34;00:00:20&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_User_Management.py::TestUser::test_partial_search&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:20&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestUser:Test_User_Management.py:46 Successfully logged into the application\nINFO     TestUser:Test_User_Management.py:48 Users is clicked from the drop down successfully\nINFO     TestUser:Test_User_Management.py:51 Username is typed in the username text box\nINFO     TestUser:Test_User_Management.py:53 Enable status is selected\nINFO     TestUser:Test_User_Management.py:55 Search Button is clicked\nINFO     TestUser:Test_User_Management.py:57 Search result is verified successfully\n\n&#34;}], &#34;Test_User_Management.py::TestUser::test_invalid_search&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_User_Management.py::TestUser::test_invalid_search&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_User_Management.py::TestUser::test_invalid_search&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     TestUser:Test_User_Management.py:66 Successfully logged into the application\nINFO     TestUser:Test_User_Management.py:68 Users is clicked from the drop down successfully\nINFO     TestUser:Test_User_Management.py:71 Username is typed in the username text box\nINFO     TestUser:Test_User_Management.py:73 Admin is selected as the user role\nINFO     TestUser:Test_User_Management.py:75 Search Button is clicked\nINFO     TestUser:Test_User_Management.py:77 Search result is verified successfully\n\n&#34;}], &#34;Test_Vacancy.py::TestVacancy::test_vacancy&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Vacancy.py::TestVacancy::test_vacancy&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Vacancy.py::TestVacancy::test_vacancy&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_vacancy:Test_Vacancy.py:11 Login is successfull\nINFO     test_vacancy:Test_Vacancy.py:15 Recruiment button is clicked\nINFO     test_vacancy:Test_Vacancy.py:17 Vacancies button is clicked\nINFO     test_vacancy:Test_Vacancy.py:19 vacancy field is filled\nINFO     test_vacancy:Test_Vacancy.py:21 Status field is filled\nINFO     test_vacancy:Test_Vacancy.py:23 Search button is clicked\nINFO     test_vacancy:Test_Vacancy.py:25 Successfull search\n\n&#34;}], &#34;Test_Vacancy.py::TestVacancy::test_deletelist&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Vacancy.py::TestVacancy::test_deletelist&#34;, &#34;duration&#34;: &#34;00:00:21&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Vacancy.py::TestVacancy::test_deletelist&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:21&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_deletelist:Test_Vacancy.py:31 Login is successfull\nINFO     test_deletelist:Test_Vacancy.py:35 Recruiment button is clicked\nINFO     test_deletelist:Test_Vacancy.py:37 Vacancies button is clicked\nINFO     test_deletelist:Test_Vacancy.py:39 Delete icon is clicked\nINFO     test_deletelist:Test_Vacancy.py:41 Yes button is clicked\nINFO     test_deletelist:Test_Vacancy.py:43 Successfully deleted\n\n&#34;}], &#34;Test_Vacancy.py::TestVacancy::test_editemp&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_Vacancy.py::TestVacancy::test_editemp&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Vacancy.py::TestVacancy::test_editemp&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_editemp:Test_Vacancy.py:49 Login is successfull\nINFO     test_editemp:Test_Vacancy.py:53 Recruiment button is clicked\nINFO     test_editemp:Test_Vacancy.py:55 Vacancies button is clicked\nINFO     test_editemp:Test_Vacancy.py:57 Edit icon is clicked\nINFO     test_editemp:Test_Vacancy.py:59 Edit is successfully done\n\n&#34;}], &#34;Test_ValidAddEmployee.py::TestValidAddEmployee::test_validAddEmp[min-None-user-1235]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ValidAddEmployee.py::TestValidAddEmployee::test_validAddEmp[min-None-user-1235]&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ValidAddEmployee.py::TestValidAddEmployee::test_validAddEmp[min-None-user-1235]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_validAddEmp:Test_ValidAddEmployee.py:15 Login is successful\nINFO     test_validAddEmp:Test_ValidAddEmployee.py:18 PIM button is clicked\nINFO     test_validAddEmp:Test_ValidAddEmployee.py:20 Add Employee button is clicked\nINFO     test_validAddEmp:Test_ValidAddEmployee.py:22 First_name,Middle_name,Last_name are sent to add value\nINFO     test_validAddEmp:Test_ValidAddEmployee.py:24 Save button is clicked\nINFO     test_validAddEmp:Test_ValidAddEmployee.py:26 Successfull added\n\n&#34;}], &#34;Test_ValidLogin.py::TestLogin::test_valid_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_ValidLogin.py::TestLogin::test_valid_login&#34;, &#34;duration&#34;: &#34;00:00:13&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_ValidLogin.py::TestLogin::test_valid_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:13&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;Test_emplist.py::TestEmployeeSearch::test_invalidemplist[Qwetry Qwetry Lname-1234]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_emplist.py::TestEmployeeSearch::test_invalidemplist[Qwetry Qwetry Lname-1234]&#34;, &#34;duration&#34;: &#34;00:00:19&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_emplist.py::TestEmployeeSearch::test_invalidemplist[Qwetry Qwetry Lname-1234]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:19&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_invalidemplist:Test_emplist.py:13 Login is successfull\nINFO     test_invalidemplist:Test_emplist.py:16 PIM button is clicked\nINFO     test_invalidemplist:Test_emplist.py:18 Employee list button is clicked\nINFO     test_invalidemplist:Test_emplist.py:20 Employee name is send\nINFO     test_invalidemplist:Test_emplist.py:22 Employee Id is send\nINFO     test_invalidemplist:Test_emplist.py:24 Search button is clicked\nINFO     test_invalidemplist:Test_emplist.py:26 No Records Found is displayed\n\n&#34;}], &#34;Test_emplist.py::TestEmployeeSearch::test_validemplist[Qwetry Qwetry Lname-1234]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_emplist.py::TestEmployeeSearch::test_validemplist[Qwetry Qwetry Lname-1234]&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_emplist.py::TestEmployeeSearch::test_validemplist[Qwetry Qwetry Lname-1234]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_validemplist:Test_emplist.py:33 Login is successfull\nINFO     test_validemplist:Test_emplist.py:36 PIM button is clicked\nINFO     test_validemplist:Test_emplist.py:38 Employee list button is clicked\nINFO     test_validemplist:Test_emplist.py:40 Employee name is send\nINFO     test_validemplist:Test_emplist.py:42 Employee Id issend\nINFO     test_validemplist:Test_emplist.py:44 Search button is clicked\nINFO     test_validemplist:Test_emplist.py:46 Record are found\n\n&#34;}], &#34;Test_emplist.py::TestEmployeeSearch::test_deletelist&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_emplist.py::TestEmployeeSearch::test_deletelist&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_emplist.py::TestEmployeeSearch::test_deletelist&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_deletelist:Test_emplist.py:52 Login is successfull\nINFO     test_deletelist:Test_emplist.py:55 PIM button is clicked\nINFO     test_deletelist:Test_emplist.py:57 Delete icon is clicked\nINFO     test_deletelist:Test_emplist.py:59 Yes button is clicked\nINFO     test_deletelist:Test_emplist.py:61 Successfully deleted\n\n&#34;}], &#34;Test_emplist.py::TestEmployeeSearch::test_editemp&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_emplist.py::TestEmployeeSearch::test_editemp&#34;, &#34;duration&#34;: &#34;00:00:25&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_emplist.py::TestEmployeeSearch::test_editemp&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:25&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_emplist.TestEmployeeSearch object at 0x000001E42004BC50&amp;gt;\n\n    @pytest.mark.retest\n    def test_editemp(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n        pim = PIMPage.PIM_Page(self.driver)\n        pim.PIM_button()\n        log.info(&amp;quot;PIM button is clicked&amp;quot;)\n        pim.edit_btn()\n        log.info(&amp;quot;Edit icon is clicked&amp;quot;)\n&amp;gt;       pim.edit_assert()\n\nTest_emplist.py:73: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;Pages.PIMPage.PIM_Page object at 0x000001E420172810&amp;gt;\n\n    def edit_assert(self):\n        actual = &amp;quot;Edit Vacancy&amp;quot;\n        expected = self.find(By.XPATH,&amp;quot;//h6[@class=&amp;#x27;oxd-text oxd-text--h6 orangehrm-main-title&amp;#x27;]&amp;quot;).text\n&amp;gt;       assert actual.__eq__(expected)\nE       AssertionError\n\n..\\Pages\\PIMPage.py:167: AssertionError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_editemp:Test_emplist.py:67 Login is successfull\nINFO     test_editemp:Test_emplist.py:70 PIM button is clicked\nINFO     test_editemp:Test_emplist.py:72 Edit icon is clicked\n\n&#34;}], &#34;Test_quicklaunch.py::TestQuickLaunch::test_assignleave&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_quicklaunch.py::TestQuickLaunch::test_assignleave&#34;, &#34;duration&#34;: &#34;00:00:19&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_quicklaunch.py::TestQuickLaunch::test_assignleave&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:19&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_quicklaunch.TestQuickLaunch object at 0x000001E42004BD10&amp;gt;\n\n    @pytest.mark.smoke\n    def test_assignleave(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_quicklaunch.py:14: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_assignleave:Test_quicklaunch.py:13 Login is successfull\n\n&#34;}], &#34;Test_quicklaunch.py::TestQuickLaunch::test_leavelist&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_quicklaunch.py::TestQuickLaunch::test_leavelist&#34;, &#34;duration&#34;: &#34;00:00:25&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_quicklaunch.py::TestQuickLaunch::test_leavelist&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:25&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_quicklaunch.TestQuickLaunch object at 0x000001E41FEAB650&amp;gt;\n\n    @pytest.mark.smoke\n    def test_leavelist(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_quicklaunch.py:25: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_leavelist:Test_quicklaunch.py:24 Login is successfull\n\n&#34;}], &#34;Test_quicklaunch.py::TestQuickLaunch::test_timesheet&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_quicklaunch.py::TestQuickLaunch::test_timesheet&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_quicklaunch.py::TestQuickLaunch::test_timesheet&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_quicklaunch.TestQuickLaunch object at 0x000001E41FF54380&amp;gt;\n\n    @pytest.mark.smoke\n    def test_timesheet(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_quicklaunch.py:36: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_timesheet:Test_quicklaunch.py:35 Login is successfull\n\n&#34;}], &#34;Test_quicklaunch.py::TestQuickLaunch::test_applyleave&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_quicklaunch.py::TestQuickLaunch::test_applyleave&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_quicklaunch.py::TestQuickLaunch::test_applyleave&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_quicklaunch.TestQuickLaunch object at 0x000001E41EB719D0&amp;gt;\n\n    @pytest.mark.retest\n    def test_applyleave(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_quicklaunch.py:47: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_applyleave:Test_quicklaunch.py:46 Login is successfull\n\n&#34;}], &#34;Test_quicklaunch.py::TestQuickLaunch::test_myleave&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_quicklaunch.py::TestQuickLaunch::test_myleave&#34;, &#34;duration&#34;: &#34;00:00:17&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_quicklaunch.py::TestQuickLaunch::test_myleave&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:17&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_quicklaunch.TestQuickLaunch object at 0x000001E41EB72630&amp;gt;\n\n    @pytest.mark.retest\n    def test_myleave(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_quicklaunch.py:58: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_myleave:Test_quicklaunch.py:57 Login is successfull\n\n&#34;}], &#34;Test_quicklaunch.py::TestQuickLaunch::test_mytimesheet&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_quicklaunch.py::TestQuickLaunch::test_mytimesheet&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_quicklaunch.py::TestQuickLaunch::test_mytimesheet&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;Tests.Test_quicklaunch.TestQuickLaunch object at 0x000001E42013F110&amp;gt;\n\n    @pytest.mark.retest\n    def test_mytimesheet(self):\n        log = console_logger.get_logger()\n        Test_ValidLogin.TestLogin.test_valid_login(self)\n        log.info(&amp;quot;Login is successfull&amp;quot;)\n&amp;gt;       dashboard = DashboardPage.Dashboard_Page(self.driver)\nE       AttributeError: module &amp;#x27;Pages.DashboardPage&amp;#x27; has no attribute &amp;#x27;Dashboard_Page&amp;#x27;. Did you mean: &amp;#x27;DashboardPage&amp;#x27;?\n\nTest_quicklaunch.py:69: AttributeError\n\n------------------------------ Captured log call -------------------------------\nINFO     test_mytimesheet:Test_quicklaunch.py:68 Login is successfull\n\n&#34;}], &#34;Test_searchreport.py::TestReport::test_searchreport[report_name0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;Test_searchreport.py::TestReport::test_searchreport[report_name0]&#34;, &#34;duration&#34;: &#34;00:00:17&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_searchreport.py::TestReport::test_searchreport[report_name0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:17&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     test_searchreport:Test_searchreport.py:14 Login is successfull\nINFO     test_searchreport:Test_searchreport.py:17 PIM button is clicked\nINFO     test_searchreport:Test_searchreport.py:19 report button is clicked\nINFO     test_searchreport:Test_searchreport.py:21 report needed to searched is given\nINFO     test_searchreport:Test_searchreport.py:23 Report is searched\nINFO     test_searchreport:Test_searchreport.py:25 Report is fetched successfully\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
