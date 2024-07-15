@@ -7,7 +7,7 @@ from Tests import Test_ValidLogin
 class TestEmployeeSearch:
     log = console_logger.get_logger()
     @pytest.mark.smoke
-    @pytest.mark.parametrize("Emp_id", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\ExcelFiles\Invalid_searchemp.xlsx", "Emp"))
+    @pytest.mark.parametrize("Emp_id", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\ExcelFiles\\Invalid_searchemp.xlsx", "Emp"))
     def test_invalidemplist(self,Emp_id):
         Test_ValidLogin.TestLogin.test_valid_login(self)
         self.log.info("Login is successfull")
@@ -26,7 +26,7 @@ class TestEmployeeSearch:
         self.log.info("No Records Found is displayed")
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize("emp_name,emp_id", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\ExcelFiles\Employee_Info.xlsx", "Employee"))
+    @pytest.mark.parametrize("emp_name,emp_id", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\ExcelFiles\\Employee_Info.xlsx", "Employee"))
     def test_validemplist(self, emp_name,emp_id):
         Test_ValidLogin.TestLogin.test_valid_login(self)
         self.log.info("Login is successfull")

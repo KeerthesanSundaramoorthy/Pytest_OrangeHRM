@@ -1,6 +1,5 @@
 """Author: Suvetha (Expleo)"""
 import pytest
-from selenium.webdriver.common.by import By
 from Pages.LoginPage import LoginPage
 from Pages.ChangePasswordPage import ChangePasswordPage
 from Utility import utility_file, console_logger

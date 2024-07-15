@@ -1,8 +1,5 @@
 """Author: Suvetha (Expleo)"""
 import pytest
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from Pages.Personal_details import PersonalDetailsPage
 from Utility import Excel_Reader, console_logger
 
@@ -14,7 +11,7 @@ class TestPersonalDetails:
     log = console_logger.get_logger()
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize("Fname,Mname,Lname,Employee_id,Othr_id,Lnumber,Exp_date,dob", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\PersonalDetailsData.xlsx", "PersonalDetails"))
+    @pytest.mark.parametrize("Fname,Mname,Lname,Employee_id,Othr_id,Lnumber,Exp_date,dob", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\Excel_Files\\PersonalDetailsData.xlsx", "PersonalDetails"))
     def test_personal_details(self, Fname, Mname, Lname, Employee_id, Othr_id, Lnumber, Exp_date, dob):
 
         """This test case checks the workflow of logging into the application, clicking the personal details,

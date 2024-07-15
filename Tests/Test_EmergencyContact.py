@@ -1,8 +1,5 @@
 """Author: Suvetha (Expleo)"""
 import pytest
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from Pages.EmergencyContact import EmergencyContactPage
 from Utility import Excel_Reader, console_logger
 
@@ -13,7 +10,7 @@ class TestEmergencyContact:
     log = console_logger.get_logger()
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\EmergencyContactData.xlsx", "emergency"))
+    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\Excel_Files\\EmergencyContactData.xlsx", "emergency"))
     def test_add_emergency_contact(self, name, relationship, telephone, mobile, work):
         """This test case checks the workflow of logging into the application, clicking the emergency contact,
         and verifying that the mandatory details is uploaded successfully."""
@@ -28,7 +25,7 @@ class TestEmergencyContact:
         self.log.info("Emergency contact details verified successfully")
 
     @pytest.mark.regression
-    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\EmergencyContactData.xlsx", "emergency"))
+    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\Excel_Files\\EmergencyContactData.xlsx", "emergency"))
     def test_add_emergency_contact_cancel(self, name, relationship, telephone, mobile, work):
         """This test case checks the workflow of logging into the application, clicking the emergency contact,
         and verifying that the cancel is done."""
@@ -41,7 +38,7 @@ class TestEmergencyContact:
         self.log.info("Emergency contact details entry canceled")
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\EmergencyContactData.xlsx", "mandatory"))
+    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\Excel_Files\\EmergencyContactData.xlsx", "mandatory"))
     def test_add_emergency_contact_mandatory(self, name, relationship, telephone, mobile, work):
         """This test case checks the workflow of logging into the application, clicking the emergency contact,
         and verifying that the mandatory details is uploaded successfully."""
@@ -56,7 +53,7 @@ class TestEmergencyContact:
         self.log.info("Mandatory emergency contact details verified successfully")
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\EmergencyContactData.xlsx", "required"))
+    @pytest.mark.parametrize("name,relationship,telephone,mobile,work", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\Excel_Files\\EmergencyContactData.xlsx", "required"))
     def test_add_emergency_contact_required(self, name, relationship, telephone, mobile, work):
         """This test case checks the workflow of logging into the application, clicking the emergency contact,
         and verifying that the required details is uploaded successfully."""

@@ -5,7 +5,7 @@ from Pages.LoginPage import LoginPage
 from Utility import Excel_Reader, console_logger
 
 @pytest.mark.usefixtures("setup_and_teardown")
-@pytest.mark.parametrize("username,password", Excel_Reader.get_data("E:\gitpytest_clone\Pytest_OrangeHRM\Excel_Files\Invalid_LoginData.xlsx", "loginInvalid"))
+@pytest.mark.parametrize("username,password", Excel_Reader.get_data("C:\\Users\\SM\\Downloads\\Pytest_10-07-24\\Pytest_Clone_3\\Pytest_OrangeHRM\\Excel_Files\\Invalid_LoginData.xlsx", "loginInvalid"))
 class TestLogin:
     """TestLogin class contains test methods for invalid login."""
 

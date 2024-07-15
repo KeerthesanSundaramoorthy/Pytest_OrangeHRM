@@ -7,8 +7,8 @@ from selenium.common.exceptions import TimeoutException,NoSuchElementException
 
 class PIM_Page(BasePage):
 
-    def __init__(self, driver):
-       super().__init__(driver) 
+    def _init_(self, driver):
+       super()._init_(driver) 
 
     #Add Employee
     #PIM_Button_xpath = "(//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'])[2]"
@@ -70,8 +70,11 @@ class PIM_Page(BasePage):
 
 
     def valid_assert(self):
-        actual = self.find(By.XPATH,self.no_record_inpage_xpath).text
-        assert actual.__eq__("No Records Found") == False
+        wait_untill = WebDriverWait(self.driver, 10)
+        element = wait_untill.until(ec.presence_of_element_located((By.XPATH, self.no_record_inpage_xpath)))
+        
+        actual = element.text
+        assert actual != "No Records Found", f"Expected to find records, but got: '{actual}'"
     
     #Add Button
     def add_employee_button(self):

@@ -1,4 +1,4 @@
-import pytest,time
+import pytest
 from Pages import RecruitPage,PIMPage
 from Tests import Test_ValidLogin
 from Utility import console_logger
