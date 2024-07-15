@@ -26,6 +26,9 @@ class ImmigrationPage(BasePage):
     cancel_locator="(//button[@data-v-10d463b7])[1]"
 
     def add_immigration_details(self, number, issued_date, expiry_date, status, review_date, comment):
+
+        """The method add the immigration details to all fields"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.immigration_locator).click()
         self.find(By.XPATH, self.add_locator).click()
@@ -39,6 +42,9 @@ class ImmigrationPage(BasePage):
         self.send_key(By.XPATH, self.comment_locator, comment)
 
     def select_country(self, country):
+
+        """The method select the country"""
+
         country_dropdown = self.find(By.XPATH, self.issuedBy_locator)
         country_dropdown.click()
         country_option_locator = f"//span[text()='{country}']"
@@ -46,12 +52,21 @@ class ImmigrationPage(BasePage):
         country_option.click()
 
     def save_details(self):
+
+        """The method click save  button"""
+
         self.click(By.XPATH, self.save_locator)
 
     def cancel_details(self):
+
+        """The method click cancel button"""
+
         self.click(By.XPATH, self.cancel_locator)
 
     def assert_details_saved_successfully(self):
+
+        """Assert if the successfully saved message is displayed"""
+        
         update_message_locator = (By.XPATH, "//p[text()='Successfully Updated']")
         try:
             update_message = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(update_message_locator))

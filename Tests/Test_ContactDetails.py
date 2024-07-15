@@ -1,28 +1,53 @@
+"""Author: Suvetha (Expleo)"""
 import pytest
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from Pages.Contact_details import ContactDetailsPage
-from Utility import ExcelReader
+from Pages.LoginPage import LoginPage
+from Pages.ChangePasswordPage import ChangePasswordPage
+from Utility import utility_file, console_logger
+
+current_password = "admin123"
+invalidCurrentPassword = "Admin"
+new_password = "User123"
+invalidConfirmPassword = "user"
+confirm_password = "User123"
 
 @pytest.mark.usefixtures("setup_and_teardown")
-class TestContactDetails:
-    @pytest.mark.smoke
-    @pytest.mark.parametrize("street1,street2,city,state,zip_code,home,mobile,work,work_email,other_email", ExcelReader.get_data("C:\\Users\\SM\\Desktop\\Pytest_clone(6-6)\\Pytest_OrangeHRM\\Excel_Files\\ContactData.xlsx", "contact"))
-    def test_contact_details_same_email(self, street1, street2, city, state, zip_code, home, mobile, work, work_email, other_email):
-        contact_details_page = ContactDetailsPage(self.driver)
-        contact_details_page.valid_login()  
-        contact_details_page.contactDetails(street1, street2, city, state, zip_code, home, mobile, work, work_email, other_email)
-        contact_details_page.select_country("Algeria")
-        contact_details_page.save_details()
-        contact_details_page.assert_details_saved_successfully() 
+class TestChangePassword:
+    """TestChangePassword class contains test methods to change password."""
+    
+    log = console_logger.get_logger()
 
     @pytest.mark.smoke
-    @pytest.mark.parametrize("street1,street2,city,state,zip_code,home,mobile,work,work_email,other_email", ExcelReader.get_data("C:\\Users\\SM\\Desktop\\Pytest_clone(6-6)\\Pytest_OrangeHRM\\Excel_Files\\ContactData.xlsx", "sameEmail"))
-    def test_contact_details_different_email(self, street1, street2, city, state, zip_code, home, mobile, work, work_email, other_email):
-        contact_details_page = ContactDetailsPage(self.driver)
-        contact_details_page.valid_login()  
-        contact_details_page.contactDetails(street1, street2, city, state, zip_code, home, mobile, work, work_email, other_email)
-        contact_details_page.select_country("Algeria")
-        contact_details_page.save_details()
-        contact_details_page.assert_same_email_error_displayed()
+    def test_change_password(self):
+        """This test case checks the workflow of logging into the application, clicking the change password,
+        and verifying that the password is changed."""
+
+        changepassword = ChangePasswordPage(self.driver)
+        changepassword.valid_login()
+        self.log.info("Logged in successfully")
+        changepassword.changePassword(current_password, new_password, confirm_password)
+        changepassword.assert_password_change_successful()
+        self.log.info("Password change verified successfully")
+
+    @pytest.mark.regression
+    def test_invalid_current_password(self):
+        """This test case checks the workflow of logging into the application, clicking the change password,
+        and verifying that the alert message."""
+
+        changepassword = ChangePasswordPage(self.driver)
+        changepassword.valid_login()
+        self.log.info("Logged in successfully")
+        changepassword.changePassword(invalidCurrentPassword, new_password, confirm_password)
+        changepassword.assert_invalid()
+        self.log.info("Invalid password alert message verified successfully")
+
+    @pytest.mark.smoke
+    def test_invalid_confirm_password(self):
+        """This test case checks the workflow of logging into the application, clicking the change password,
+        and verifying that the alert message."""
+
+        changepassword = ChangePasswordPage(self.driver)
+        changepassword.valid_login()
+        self.log.info("Logged in successfully")
+        changepassword.changePassword(current_password, new_password, invalidConfirmPassword)
+        changepassword.assert_alert()
+        self.log.info("Invalid confirm password alert message verified successfully")

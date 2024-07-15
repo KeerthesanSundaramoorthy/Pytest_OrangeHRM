@@ -16,6 +16,9 @@ class ChangePasswordPage(BasePage):
     save_locator = "//button[@type='submit']"
 
     def changePassword(self, current_password, new_password, confirm_password):
+
+        """This method is to change the new password."""
+
         #self.click(By.XPATH, self.user_locator)
         self.find(By.XPATH,self.user_locator).click()
         #self.click(By.XPATH, self.changePassword_locator)
@@ -28,11 +31,17 @@ class ChangePasswordPage(BasePage):
         self.click(By.XPATH, self.save_locator)
 
     def assert_password_change_successful(self):
+
+        """Assert if the successfully saved message is displayed"""
+
         success_message_locator = (By.XPATH, "//p[text()='Successfully Saved']")
         success_message = self.wait.until(EC.visibility_of_element_located(success_message_locator))
         assert success_message.is_displayed(), "Change Password was not successful"
 
     def invalid_currentPassword(self, invalidCurrentPassword, new_password, confirm_password):
+
+        """This method change the new password with invalid current password."""
+
         #self.click(By.XPATH, self.user_locator)
         self.find(By.XPATH,self.user_locator).click()
         #self.click(By.XPATH, self.changePassword_locator)
@@ -43,11 +52,17 @@ class ChangePasswordPage(BasePage):
         self.click(By.XPATH, self.save_locator)
 
     def assert_invalid(self):
+
+        """Assert the incorrect current password"""
+
         invalid_message_locator = (By.XPATH, "//p[text()='Current Password is Incorrect']")
         invalid_message = self.wait.until(EC.visibility_of_element_located(invalid_message_locator))
         assert invalid_message.is_displayed(), "Invalid password is not successful"
 
     def invalid_confirmPassword(self, invalidConfirmPassword, new_password, confirm_password):
+
+        """This method change the new password with invalid confirm password."""
+
         #self.click(By.XPATH, self.user_locator)
         self.find(By.XPATH,self.user_locator).click()
         #self.click(By.XPATH, self.changePassword_locator)
@@ -58,6 +73,9 @@ class ChangePasswordPage(BasePage):
         self.click(By.XPATH, self.save_locator)
 
     def assert_alert(self):
+
+        """Assert the alert message"""
+
         invalid_message_locator = (By.XPATH, "//span[text()='Passwords do not match']")
         invalid_message = self.wait.until(EC.visibility_of_element_located(invalid_message_locator))
         assert invalid_message.is_displayed(), "Invalid password is not successful"

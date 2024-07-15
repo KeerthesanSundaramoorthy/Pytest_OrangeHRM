@@ -21,12 +21,15 @@ class PersonalDetailsPage(BasePage):
     expiryDate_locator="(//input[@class='oxd-input oxd-input--active'])[5]"
     nationality_locator="(//div[@class='oxd-select-text oxd-select-text--active'])[1]"
     marital_locator="(//div[@class='oxd-select-text oxd-select-text--active'])[2]"
-    dob_locator="(//input[@class='oxd-input oxd-input--active'])[6]"
+    dob_locator="(//input[@data-v-1f99f73c])[9]"
     male_locator=  "(//span[@data-v-7ef819fd])[1]"
     female_locator =  "(//span[@data-v-7ef819fd])[2]"
     save_locator =  "(//button[text()=' Save '])[1]"
 
     def personalDetails(self, Fname, Mname, Lname, Employee_id, Othr_id, Lnumber, Exp_date, dob):
+
+        """The method add the personal details"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.personalDetails_locator).click()
 
@@ -49,6 +52,9 @@ class PersonalDetailsPage(BasePage):
         self.send_key(By.XPATH, self.dob_locator, str(dob))
 
     def personalDetails_mandatory(self, Fname, Mname, Lname):
+
+        """The method add the personal details to mandatory fields"""
+
         self.find(By.XPATH, self.myInfo_locator).click()
         self.find(By.XPATH, self.personalDetails_locator).click()
 
@@ -61,29 +67,44 @@ class PersonalDetailsPage(BasePage):
         self.send_key(By.XPATH, self.lastName_locator, Lname)
 
     def select_gender(self, gender):
+
+        """The method select the gender"""
+
         if gender.lower() == "male":
             self.click(By.XPATH, self.male_locator)
         elif gender.lower() == "female":
             self.click(By.XPATH, self.female_locator)
 
-    def select_nationality(self, nationality):
-        nationality_dropdown = self.find(By.XPATH, self.nationality_locator)
-        nationality_dropdown.click()
-        nationality_option_locator = f"//span[text()='{nationality}']"
-        nationality_option = self.find(By.XPATH, nationality_option_locator)
-        nationality_option.click()
+    def select_country(self, country):
 
-    def select_marital_status(self, status):
-        marital_status_dropdown = self.find(By.XPATH, self.marital_locator)
-        marital_status_dropdown.click()
-        status_option_locator = f"//span[text()='{status}']"
-        status_option = self.find(By.XPATH, status_option_locator)
-        status_option.click()
+        """The method select the country"""
+
+        country_dropdown = self.find(By.XPATH, self.nationality_locator)
+        country_dropdown.click()
+        country_option_locator = f"//span[text()='{country}']"
+        country_option = self.find(By.XPATH, country_option_locator)
+        country_option.click()
+
+    def select_status(self, country):
+
+        """The method select the status"""
+
+        country_dropdown = self.find(By.XPATH, self.marital_locator)
+        country_dropdown.click()
+        country_option_locator = f"//span[text()='{country}']"
+        country_option = self.find(By.XPATH, country_option_locator)
+        country_option.click()
 
     def save_details(self):
+
+        """The method click save  button"""
+
         self.click(By.XPATH, self.save_locator)
 
     def assert_details_saved_successfully(self):
+
+        """Assert if the successfully saved message is displayed"""
+
         update_message_locator = (By.XPATH, "//p[text()='Successfully Updated']")
         try:
             update_message = WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(update_message_locator))
@@ -93,6 +114,3 @@ class PersonalDetailsPage(BasePage):
             print("TimeoutException occurred while waiting for the update message.")
         except NoSuchElementException:
             print("NoSuchElementException: Update message element not found.")
-
-    
-
